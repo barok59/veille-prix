@@ -1,14 +1,26 @@
+import re
 import requests
 import feedparser
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                          "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
-def chercher(mot_cle: str):
-    r = requests.get("https://www.dealabs.com/rss/search",
-                     params={"q": mot_cle}, headers=HEADERS, timeout=20)
-    print(f"[dealabs] '{mot_cle}' -> HTTP {r.status_code}, "
-          f"{len(r.content)} octets, type={r.headers.get('content-type')}")
-    flux = feedparser.parse(r.content)
-    print(f"[dealabs]   {len(flux.entries)} résultat(s)")
-    return [{"titre": e.title, "lien": e.link} for e in flux.entries[:10]]
+FLUX = ["https://www.dealabs.com/rss/tous"]
+
+def charger_deals():
+    deals = []
+    for url in FLUX:
+        r = requests.get(url, headers=HEADERS, timeout=20)
+        flux = feedparser.parse(r.content)
+        print(f"[dealabs] {url} -> HTTP {r.status_code}, {len(flux.entries)} entrée(s)")
+        for e in flux.entries:
+            texte = e.title + " " + e.get("summary", "")
+            deals.append({"titre": e.title, "lien": e.link, "texte": texte})
+    return deals
+
+def normaliser(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+def filtrer(deals, mots_cles):
+    cles = [normaliser(m) for m in mots_cles]
+    return [d for d in deals if any(c in normaliser(d["texte"]) for c in cles)]
