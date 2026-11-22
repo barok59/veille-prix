@@ -8,9 +8,13 @@ produits:
   - id: four-electrolux-pyro
     nom: Electrolux EOF6P46RX
     mots_cles: ["EOF6P46RX"]
+    urls:
+      - https://www.ubaldi.com/electromenager/cuisson/four-encastrable/electrolux/four-encastrable-pyrolyse-electrolux--eof6p46rx-serie-500-porte-charnieres-droite--70758079.php
   - id: four-electrolux-vapeur
     nom: Electrolux EOB8S39Z
     mots_cles: ["EOB8S39Z"]
+    urls:
+      - https://www.ubaldi.com/electromenager/cuisson/four-encastrable/electrolux/four-encastrable-vapeur-electrolux--eob8s39z-serie-800-100-vapeur-cuisson-combine--60452605.php
   - id: plaque-siemens
     nom: Siemens EX875LYC1E
     mots_cles: ["EX875LYC1E"]
