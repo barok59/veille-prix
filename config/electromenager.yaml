@@ -1,0 +1,25 @@
+domaine: electromenager
+deadline: 2027-01-31
+produits:
+  - id: hotte-elica
+    nom: Elica Sweet Moon Black
+    prix_reference: 628.99
+    mots_cles: ["elica sweet moon", "hotte murale 85 elica"]
+  - id: four-electrolux-pyro
+    nom: Electrolux EOF6P46RX
+    mots_cles: ["EOF6P46RX"]
+  - id: four-electrolux-vapeur
+    nom: Electrolux EOB8S39Z
+    mots_cles: ["EOB8S39Z"]
+  - id: plaque-siemens
+    nom: Siemens EX875LYC1E
+    mots_cles: ["EX875LYC1E"]
+  - id: lave-vaisselle-bosch
+    nom: Bosch SMV4EVX36F
+    mots_cles: ["SMV4EVX36F"]
+  - id: frigo-bosch
+    nom: Bosch KSV33VLEP
+    mots_cles: ["KSV33VLEP"]
+  - id: frigo-beko
+    nom: Beko B3RMLNE444HXB
+    mots_cles: ["B3RMLNE444HXB"]
