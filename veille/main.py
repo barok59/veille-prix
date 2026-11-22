@@ -9,6 +9,10 @@ def main():
     cfg = yaml.safe_load(open("config/electromenager.yaml"))
 
     deals = charger_deals()
+    from prix import lire_prix
+    for p in cfg["produits"]:
+        for url in p.get("urls", []):
+            print(p["nom"], "->", lire_prix(url))
     for d in deals[:3]:
         print("[exemple]", d["titre"])
 
