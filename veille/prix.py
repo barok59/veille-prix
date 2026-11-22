@@ -1,42 +1,39 @@
-import json
+import os
 import re
-import requests
-from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-           "Accept-Language": "fr-FR,fr;q=0.9"}
+def _nombre(texte: str):
+    t = texte.replace("\u202f", "").replace("\u00a0", "").replace(" ", "")
+    m = re.search(r"\d+(?:[.,]\d+)?", t)
+    return float(m.group().replace(",", ".")) if m else None
 
-def _offres(data):
-    if isinstance(data, list):
-        for x in data:
-            yield from _offres(x)
-    elif isinstance(data, dict):
-        if "offers" in data:
-            o = data["offers"]
-            yield from (o if isinstance(o, list) else [o])
-        for v in data.values():
-            if isinstance(v, (dict, list)):
-                yield from _offres(v)
+def _connexion(page):
+    return _nombre(page.locator("div.fs-1.fontTitre").first.inner_text())
 
-def lire_prix(url: str):
-    r = requests.get(url, headers=HEADERS, timeout=25)
-    print(f"[prix] {url[:70]}... -> HTTP {r.status_code}, {len(r.content)} octets")
-    if r.status_code != 200:
-        return None
-    soup = BeautifulSoup(r.text, "html.parser")
-    for s in soup.find_all("script", type="application/ld+json"):
+def _primo_ideo(page):
+    return _nombre(page.locator("[itemprop=price]").first.get_attribute("content"))
+
+EXTRACTEURS = {"connexion": _connexion, "primo-ideo": _primo_ideo}
+
+def lire_prix_sources(sources):
+    """sources: liste de {site, url}. Renvoie {url: prix ou None}."""
+    resultats = {}
+    headless = os.environ.get("HEADLESS") == "1"
+    with sync_playwright() as p:
         try:
-            data = json.loads(s.string or "")
+            nav = p.chromium.launch(channel="chrome", headless=headless)
         except Exception:
-            continue
-        for o in _offres(data):
-            if isinstance(o, dict) and o.get("price"):
-                print(f"[prix]   JSON-LD : {o.get('price')} {o.get('priceCurrency')}")
-                return float(str(o["price"]).replace(",", "."))
-    m = soup.find("meta", property="product:price:amount")
-    if m and m.get("content"):
-        print(f"[prix]   meta : {m['content']}")
-        return float(m["content"].replace(",", "."))
-    print("[prix]   aucun prix trouvé dans la page")
-    return None
+            nav = p.chromium.launch(headless=headless)
+        page = nav.new_page()
+        for s in sources:
+            try:
+                rep = page.goto(s["url"], wait_until="domcontentloaded", timeout=45000)
+                page.wait_for_timeout(2500)
+                prix = EXTRACTEURS[s["site"]](page)
+                print(f"[prix] {s['site']} -> HTTP {rep.status if rep else '?'}, prix {prix}")
+                resultats[s["url"]] = prix
+            except Exception as e:
+                print(f"[prix] {s['site']} -> ERREUR {str(e)[:100]}")
+                resultats[s["url"]] = None
+        nav.close()
+    return resultats
