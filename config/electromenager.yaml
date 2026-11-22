@@ -4,7 +4,7 @@ produits:
   - id: hotte-elica
     nom: Elica Sweet Moon Black
     prix_reference: 628.99
-    mots_cles: ["elica sweet moon", "hotte murale 85 elica"]
+    mots_cles: ["elica sweet moon", "hotte murale 85 elica", "hotte"]
   - id: four-electrolux-pyro
     nom: Electrolux EOF6P46RX
     mots_cles: ["EOF6P46RX"]
