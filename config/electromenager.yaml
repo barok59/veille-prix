@@ -4,23 +4,26 @@ produits:
   - id: hotte-elica
     nom: Elica Sweet Moon Black
     prix_reference: 628.99
-    mots_cles: ["elica sweet moon", "hotte murale 85 elica", "hotte"]
+    mots_cles: ["elica sweet moon", "hotte murale 85 elica"]
+    sources:
+      - site: primo-ideo
+        url: https://www.primo-ideo.com/hotte-murale-elica-sweet-moon-black-f-85-prf0201739.htm
   - id: four-electrolux-pyro
     nom: Electrolux EOF6P46RX
     mots_cles: ["EOF6P46RX"]
-    urls:
-      - https://www.ubaldi.com/electromenager/cuisson/four-encastrable/electrolux/four-encastrable-pyrolyse-electrolux--eof6p46rx-serie-500-porte-charnieres-droite--70758079.php
   - id: four-electrolux-vapeur
     nom: Electrolux EOB8S39Z
     mots_cles: ["EOB8S39Z"]
-    urls:
-      - https://www.ubaldi.com/electromenager/cuisson/four-encastrable/electrolux/four-encastrable-vapeur-electrolux--eob8s39z-serie-800-100-vapeur-cuisson-combine--60452605.php
   - id: plaque-siemens
     nom: Siemens EX875LYC1E
     mots_cles: ["EX875LYC1E"]
   - id: lave-vaisselle-bosch
     nom: Bosch SMV4EVX36F
+    prix_reference: 649
     mots_cles: ["SMV4EVX36F"]
+    sources:
+      - site: connexion
+        url: https://www.connexion.fr/gros-electromenager/lave-vaisselle/encastrable/779-111677.html
   - id: frigo-bosch
     nom: Bosch KSV33VLEP
     mots_cles: ["KSV33VLEP"]
