@@ -26,14 +26,28 @@ def _ledenicheur(page):
         meta = page.locator('meta[name="description"]').first.get_attribute("content", timeout=3000) or ""
     except Exception:
         meta = ""
+    titre = page.title()
+    corps = page.inner_text("body")
+
+    # On ne regarde que la zone des offres (évite les « Produits populaires »)
+    debut = corps.find("Comparer les prix")
+    fin = corps.find("Nous avons trouvé ce produit")
+    if debut != -1 and fin > debut:
+        section = corps[debut:fin]
+    elif debut != -1:
+        section = corps[debut:debut + 1500]
+    else:
+        section = ""
+
     prix = None
-    for source in (page.title(), meta):
+    for source in (titre, meta, section):
         m = RE_DES.search(source)
         if m:
             prix = _nombre(m.group(1))
             break
+
     meilleur, vendeur = None, None
-    for ligne in page.inner_text("body").split("\n"):
+    for ligne in section.split("\n"):
         mo = RE_OFFRE.match(ligne.strip())
         if mo:
             v = _nombre(mo.group(2))
@@ -43,6 +57,11 @@ def _ledenicheur(page):
         prix = meilleur
     if prix is not None and meilleur is not None and abs(meilleur - prix) > 0.01:
         vendeur = None  # incohérence : on n'affiche pas de vendeur
+
+    if prix is None:
+        print(f"[debug] titre={titre[:80]!r}")
+        print(f"[debug] meta={meta[:80]!r}")
+        print(f"[debug] section={' | '.join(section.split())[:300]!r}")
     return prix, vendeur
 
 
