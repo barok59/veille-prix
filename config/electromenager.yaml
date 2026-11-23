@@ -10,16 +10,25 @@ produits:
         url: https://www.primo-ideo.com/hotte-murale-elica-sweet-moon-black-f-85-prf0201739.htm
   - id: four-electrolux-pyro
     nom: Electrolux EOF6P46RX
-    mots_cles: ["EOF6P46RX"]
     prix_reference: 527
+    mots_cles: ["EOF6P46RX"]
+    sources:
+      - site: ledenicheur
+        url: https://ledenicheur.fr/product.php?p=15832204
   - id: four-electrolux-vapeur
     nom: Electrolux EOB8S39Z
-    mots_cles: ["EOB8S39Z"]
     prix_reference: 699
+    mots_cles: ["EOB8S39Z"]
+    sources:
+      - site: ledenicheur
+        url: https://ledenicheur.fr/product.php?p=6922396
   - id: plaque-siemens
     nom: Siemens EX875LYC1E
-    mots_cles: ["EX875LYC1E"]
     prix_reference: 632
+    mots_cles: ["EX875LYC1E"]
+    sources:
+      - site: ledenicheur
+        url: https://ledenicheur.fr/product.php?p=3708412
   - id: lave-vaisselle-bosch
     nom: Bosch SMV4EVX36F
     prix_reference: 649
@@ -29,9 +38,15 @@ produits:
         url: https://www.connexion.fr/gros-electromenager/lave-vaisselle/encastrable/779-111677.html
   - id: frigo-bosch
     nom: Bosch KSV33VLEP
-    mots_cles: ["KSV33VLEP"]
     prix_reference: 549
+    mots_cles: ["KSV33VLEP"]
+    sources:
+      - site: ledenicheur
+        url: https://ledenicheur.fr/product.php?p=5600701
   - id: frigo-beko
     nom: Beko B3RMLNE444HXB
-    mots_cles: ["B3RMLNE444HXB"]
     prix_reference: 565
+    mots_cles: ["B3RMLNE444HXB"]
+    sources:
+      - site: ledenicheur
+        url: https://ledenicheur.fr/product.php?p=7574984
