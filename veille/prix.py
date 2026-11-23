@@ -2,8 +2,9 @@ import os
 import re
 from playwright.sync_api import sync_playwright
 
-RE_DES = re.compile(r"D[èe]s\s+([\d\s\u202f\u00a0]+(?:[,.]\d{1,2})?)\s?€")
-RE_OFFRE = re.compile(r"^(.+?), .+, ([\d\s\u202f\u00a0]+,\d{2}) €$")
+ESP = r"[\s\u202f\u00a0]"
+RE_DES = re.compile(rf"d[èe]s{ESP}+([\d\s\u202f\u00a0]+(?:[,.]\d{{1,2}})?){ESP}*€", re.IGNORECASE)
+RE_OFFRE = re.compile(rf"^(.+?), .+, ([\d\s\u202f\u00a0]+,\d{{2}}){ESP}*€$")
 
 
 def _nombre(texte: str):
@@ -21,10 +22,16 @@ def _primo_ideo(page):
 
 
 def _ledenicheur(page):
+    try:
+        meta = page.locator('meta[name="description"]').first.get_attribute("content", timeout=3000) or ""
+    except Exception:
+        meta = ""
     prix = None
-    m = RE_DES.search(page.title())
-    if m:
-        prix = _nombre(m.group(1))
+    for source in (page.title(), meta):
+        m = RE_DES.search(source)
+        if m:
+            prix = _nombre(m.group(1))
+            break
     meilleur, vendeur = None, None
     for ligne in page.inner_text("body").split("\n"):
         mo = RE_OFFRE.match(ligne.strip())
