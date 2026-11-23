@@ -2,8 +2,6 @@ import sys, json, yaml, pathlib
 from dealabs import charger_deals, filtrer
 from discord import envoyer
 
-HIST = pathlib.Path("data/history.json")
-
 
 def veille_dealabs(cfg, historique):
     deals = charger_deals()
@@ -26,16 +24,18 @@ def veille_prix(cfg, historique):
     prix = lire_prix_sources(sources)
     alertes = []
     for s in sources:
-        p, valeur = s["produit"], prix.get(s["url"])
+        p = s["produit"]
+        valeur, vendeur = prix.get(s["url"], (None, None))
         if valeur is None:
             continue
         cle = f"{p['id']}|{s['site']}"
         ancien = memoire.get(cle, {})
-        notifie = ancien.get("dernier_notifie")
         ref = p.get("prix_reference")
-        if ref is not None and valeur < ref and valeur != notifie:
-            alertes.append(f"**{p['nom']}** : {valeur:.2f} € chez {s['site']} "
-                           f"(référence {ref:.2f} €)\n{s['url']}")
+        if ref is not None and valeur < ref and valeur != ancien.get("dernier_notifie"):
+            ou = vendeur or s["site"]
+            note = " ⚠️ marketplace : vérifie le vendeur" if "marketplace" in ou.lower() else ""
+            alertes.append(f"**{p['nom']}** : {valeur:.2f} € chez {ou} "
+                           f"(référence {ref:.2f} €){note}\n{s['url']}")
             ancien["dernier_notifie"] = valeur
         ancien["dernier_prix"] = valeur
         ancien["plus_bas"] = min(valeur, ancien.get("plus_bas", valeur))
