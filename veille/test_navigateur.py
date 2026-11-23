@@ -1,19 +1,8 @@
 import re
-from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-URLS = [
-    "https://www.electromenager-compare.com/four-ELEEOF6P46RX-ELECTROLUX-EOF6P46RX.htm",
-    "https://www.electromenager-compare.com/four-ELEEOB8S39Z2024-ELECTROLUX-EOB8S39Z-2024.htm",
-    "https://www.bonne-promo.com/prix/20776/electrolux-eof6p46rx-four",
-    "https://ledenicheur.fr/s/four-vapeur-electrolux/",
-    "https://www.auchan.fr/bosch-refrigerateur-1-porte-60cm-324l-ksv33vlep/pr-81828b9d-274d-46aa-9f4f-7357235f4ccc",
-    "https://www.but.fr/produits/4242005205707/Refrigerateur-1-Porte-Bosch-Ksv33vlep-324-L-Inox.html",
-    "https://www.conforama.fr/gros-electromenager/cuisson/four-encastrable/electrolux---four-vapeur-70l-60cm-noir-eob8s39z---serie-800/p/J53633547",
-    "https://www.carrefour.fr/p/four-vapeur-electrolux-eob8s39z-7332543842056",
-    "https://www.bricomarche.com/p/four-integrable-72l-60cm-pyrolyse-inox-eof6p46rx/7333394114002",
-]
-RE_PRIX = re.compile(r"\d[\d\s\u202f\u00a0]*[,.]\d{2}\s?€|\d[\d\s\u202f\u00a0]*\s?€")
+IDS = ["15832204", "6922396", "5600701", "7574984", "3708412"]
+RE_DES = re.compile(r"D[èe]s\s+([\d\s\u202f\u00a0]+[,.]\d{2})\s?€")
 
 with sync_playwright() as p:
     try:
@@ -21,13 +10,24 @@ with sync_playwright() as p:
     except Exception:
         nav = p.chromium.launch(headless=True)
     page = nav.new_page()
-    for url in URLS:
+    for pid in IDS:
+        url = f"https://ledenicheur.fr/product.php?p={pid}"
         try:
             rep = page.goto(url, wait_until="domcontentloaded", timeout=45000)
             page.wait_for_timeout(3000)
-            texte = BeautifulSoup(page.content(), "html.parser").get_text(" ", strip=True)
-            prix = [m.strip() for m in RE_PRIX.findall(texte)[:8]]
-            print(f"\n{url[:75]}\n  HTTP {rep.status if rep else '?'} | {page.title()[:60]!r} | {prix}")
+            titre = page.title()
+            try:
+                meta = page.locator('meta[name="description"]').first.get_attribute("content", timeout=3000) or ""
+            except Exception:
+                meta = ""
+            m = RE_DES.search(titre) or RE_DES.search(meta)
+            print(f"\n[{pid}] HTTP {rep.status if rep else '?'}")
+            print(f"  titre : {titre[:90]}")
+            print(f"  prix 'dès' : {m.group(1) if m else 'non trouvé'}")
+            corps = page.inner_text("body")
+            i = corps.find("Comparer les prix")
+            extrait = " | ".join(l.strip() for l in corps[i:i + 700].split("\n") if l.strip())
+            print(f"  offres : {extrait[:400]}")
         except Exception as e:
-            print(f"\n{url[:75]}\n  ERREUR {str(e)[:80]}")
+            print(f"\n[{pid}] ERREUR {str(e)[:100]}")
     nav.close()
