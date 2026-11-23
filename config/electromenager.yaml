@@ -11,12 +11,15 @@ produits:
   - id: four-electrolux-pyro
     nom: Electrolux EOF6P46RX
     mots_cles: ["EOF6P46RX"]
+    prix_reference: 527
   - id: four-electrolux-vapeur
     nom: Electrolux EOB8S39Z
     mots_cles: ["EOB8S39Z"]
+    prix_reference: 699
   - id: plaque-siemens
     nom: Siemens EX875LYC1E
     mots_cles: ["EX875LYC1E"]
+    prix_reference: 632
   - id: lave-vaisselle-bosch
     nom: Bosch SMV4EVX36F
     prix_reference: 649
@@ -27,6 +30,8 @@ produits:
   - id: frigo-bosch
     nom: Bosch KSV33VLEP
     mots_cles: ["KSV33VLEP"]
+    prix_reference: 549
   - id: frigo-beko
     nom: Beko B3RMLNE444HXB
     mots_cles: ["B3RMLNE444HXB"]
+    prix_reference: 565
