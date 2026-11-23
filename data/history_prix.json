@@ -7,6 +7,24 @@
     "lave-vaisselle-bosch|connexion": {
       "dernier_prix": 649.0,
       "plus_bas": 649.0
+    },
+    "four-electrolux-pyro|ledenicheur": {
+      "dernier_prix": 594.96,
+      "plus_bas": 594.96
+    },
+    "four-electrolux-vapeur|ledenicheur": {
+      "dernier_notifie": 696.35,
+      "dernier_prix": 696.35,
+      "plus_bas": 696.35
+    },
+    "frigo-bosch|ledenicheur": {
+      "dernier_prix": 549.0,
+      "plus_bas": 549.0
+    },
+    "frigo-beko|ledenicheur": {
+      "dernier_notifie": 517.71,
+      "dernier_prix": 517.71,
+      "plus_bas": 517.71
     }
   }
 }
