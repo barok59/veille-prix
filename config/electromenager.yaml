@@ -16,6 +16,8 @@ produits:
     sources:
       - site: primo-ideo
         url: https://www.primo-ideo.com/hotte-murale-elica-sweet-moon-black-f-85-prf0201739.htm
+      - site: ledenicheur
+        url: https://ledenicheur.fr/product.php?p=21318766
   - id: four-electrolux-pyro
     nom: Electrolux EOF6P46RX
     prix_reference: 527
@@ -44,6 +46,8 @@ produits:
     sources:
       - site: connexion
         url: https://www.connexion.fr/gros-electromenager/lave-vaisselle/encastrable/779-111677.html
+      - site: ledenicheur
+        url: https://ledenicheur.fr/product.php?p=16374178
   - id: frigo-bosch
     nom: Bosch KSV33VLEP
     prix_reference: 549
