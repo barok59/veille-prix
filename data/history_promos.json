@@ -1,0 +1,272 @@
+{
+  "promos": {
+    "Lego": {
+      "13246895": {
+        "nom": "LEGO Architecture 21061 Cathédrale Notre-Dame",
+        "prix": 141.3
+      },
+      "13308334": {
+        "nom": "LEGO Star Wars 75394 Imperial Star Destroyer",
+        "prix": 144.49
+      },
+      "14879663": {
+        "nom": "LEGO ONE PIECE 75640 Le restaurant flottant Baratie",
+        "prix": 181.99
+      },
+      "14412572": {
+        "nom": "LEGO Harry Potter 76447 Le château de Poudlard : Ensemble d’aventure Leçons de vol",
+        "prix": 79.99
+      },
+      "14513599": {
+        "nom": "LEGO Super Mario 72037 Mario Kart - Mario & Standard Kart",
+        "prix": 104.99
+      },
+      "16561333": {
+        "nom": "LEGO Star Wars 75459 Imperial Lambda-Class Shuttle",
+        "prix": 133.99
+      },
+      "16605775": {
+        "nom": "LEGO Fortnite 77082 Rave Cave",
+        "prix": 122.49
+      },
+      "5784543": {
+        "nom": "LEGO Friends 41684 Heartlake City Grand Hotel",
+        "prix": 129.99
+      },
+      "7334639": {
+        "nom": "LEGO Art 31208 Hokusai – La Grande Vague",
+        "prix": 107.99
+      },
+      "14628380": {
+        "nom": "LEGO Fortnite 77078 Mecha Team Leader",
+        "prix": 142.49
+      },
+      "5784546": {
+        "nom": "LEGO Ninjago 71753 L'attaque du dragon de feu",
+        "prix": 92.99
+      },
+      "5947234": {
+        "nom": "LEGO City 60315 Le camion de commandement mobile de la police",
+        "prix": 64.99
+      },
+      "16161671": {
+        "nom": "LEGO Icons 11389 Project Hail Mary",
+        "prix": 89.69
+      },
+      "5784527": {
+        "nom": "LEGO Creator 31119 Grande Roue",
+        "prix": 143.99
+      },
+      "4585410": {
+        "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
+        "prix": 92.41
+      },
+      "16551981": {
+        "nom": "LEGO Ninjago 71872 Strid med ultradraken",
+        "prix": 118.99
+      },
+      "4737755": {
+        "nom": "LEGO Duplo 10875 Train de marchandises",
+        "prix": 249.99
+      },
+      "11131179": {
+        "nom": "LEGO City 60365 Immeuble",
+        "prix": 94.9
+      },
+      "5673478": {
+        "nom": "LEGO Ninjago 71737 X-1 Chargeur Ninja",
+        "prix": 84.99
+      },
+      "16042127": {
+        "nom": "LEGO Star Wars 75427 Smart Play Duel dans la Salle du Trône et Chasseur A-Wing",
+        "prix": 106.99
+      },
+      "13023595": {
+        "nom": "LEGO City 60413 Avion de sauvetage incendie",
+        "prix": 96.2
+      },
+      "5946042": {
+        "nom": "LEGO Technic 42138 Ford Mustang Shelby GT500",
+        "prix": 78.9
+      },
+      "6239506": {
+        "nom": "LEGO Harry Potter 76401 Cour de Poudlard : Le sauvetage de Sirius",
+        "prix": 89.97
+      },
+      "11671413": {
+        "nom": "LEGO Art 31210 Art moderne",
+        "prix": 99.99
+      },
+      "13278493": {
+        "nom": "LEGO Ninjago 71812 Le robot d'escalade ninja de Kai",
+        "prix": 104.42
+      },
+      "7280592": {
+        "nom": "LEGO Duplo 10990 Chantier de construction",
+        "prix": 179.7
+      },
+      "5254748": {
+        "nom": "LEGO City 60257 Station-service",
+        "prix": 89.0
+      },
+      "13860153": {
+        "nom": "LEGO Wednesday 76781 La chambre de Wednesday et Enid",
+        "prix": 97.99
+      },
+      "5854598": {
+        "nom": "LEGO Creator Expert 10293 Santa’s Visit",
+        "prix": 135.0
+      },
+      "3990915": {
+        "nom": "LEGO Ideas 21306 The Beatles Yellow Submarine",
+        "prix": 255.79
+      },
+      "4996472": {
+        "nom": "LEGO Ninjago 70669 Foreuse terrestre de Cole",
+        "prix": 89.95
+      },
+      "5279554": {
+        "nom": "LEGO Friends 41429 Avion Heartlake City",
+        "prix": 104.3
+      }
+    },
+    "Top promo électroménager": {
+      "15775998": {
+        "nom": "Bosch Serie 2 SMV26AX01F",
+        "prix": 379.0
+      },
+      "16444208": {
+        "nom": "Continental Edison CELV1145S (Argenté)",
+        "prix": 229.99
+      },
+      "13144457": {
+        "nom": "Bosch Serie 2 KIR81NSE0 (Blanc)",
+        "prix": 599.0
+      },
+      "16444400": {
+        "nom": "Hisense HEC6A30BDBG (Noir)",
+        "prix": 399.99
+      },
+      "6004782": {
+        "nom": "Bosch PVS611BB6E (Noir)",
+        "prix": 336.0
+      },
+      "15966892": {
+        "nom": "Bosch Série 2 SMS26AI01F (Gris)",
+        "prix": 379.0
+      },
+      "16052307": {
+        "nom": "Bosch SMS25AW09F (Blanc)",
+        "prix": 379.0
+      },
+      "16074896": {
+        "nom": "Bosch Serie 4 SMH4HVX14E",
+        "prix": 449.0
+      },
+      "3657859": {
+        "nom": "Bosch PIB375FB1E (Noir)",
+        "prix": 256.26
+      },
+      "5862347": {
+        "nom": "Bosch SMV6ECX93E",
+        "prix": 679.0
+      },
+      "12983576": {
+        "nom": "Siemens SN23EW03ME Blanc",
+        "prix": 599.97
+      },
+      "15793649": {
+        "nom": "Electrolux KCC83443CZ (Noir)",
+        "prix": 1299.0
+      },
+      "3186216": {
+        "nom": "Siemens ET645HN17E (Inox)",
+        "prix": 248.69
+      },
+      "14661634": {
+        "nom": "Severin D K 1033 (KP1033)",
+        "prix": 85.49
+      },
+      "16500531": {
+        "nom": "Bosch SMV6ECX23E",
+        "prix": 579.0
+      },
+      "15203710": {
+        "nom": "Bosch PNP6B6K40 (Noir)",
+        "prix": 249.0
+      },
+      "5959110": {
+        "nom": "Whirlpool WBO3T133PFX Inox",
+        "prix": 399.99
+      },
+      "16129557": {
+        "nom": "Whirlpool WH6IB14BN7S1S",
+        "prix": 549.99
+      },
+      "4262364": {
+        "nom": "Samsung NZ63M3707AK (Noir)",
+        "prix": 202.3
+      },
+      "16509338": {
+        "nom": "Haier HPR5718ENMX (Acier inoxydable)",
+        "prix": 519.99
+      },
+      "16741305": {
+        "nom": "IsEasy LT3-22",
+        "prix": 76.94
+      },
+      "15853158": {
+        "nom": "Cecotec Bolero CoolMarket TT Origin 45 (Beige)",
+        "prix": 149.0
+      },
+      "16712005": {
+        "nom": "Fagor FACG2002B",
+        "prix": 319.0
+      },
+      "16714809": {
+        "nom": "Hisense HI6311BSCE (Black)",
+        "prix": 159.99
+      },
+      "16103968": {
+        "nom": "Klarstein Audrey Evo (Crème)",
+        "prix": 186.79
+      },
+      "6232757": {
+        "nom": "Klarstein Victoria 5 (Noir)",
+        "prix": 239.65
+      },
+      "5964183": {
+        "nom": "Klarstein Goldflame 1 (Noir)",
+        "prix": 102.59
+      },
+      "4080176": {
+        "nom": "Siemens ET801FCP1D (Noir)",
+        "prix": 470.06
+      },
+      "4588716": {
+        "nom": "Bomann KS 2184 (Acier inoxydable)",
+        "prix": 229.0
+      },
+      "6918942": {
+        "nom": "Bosch PIE645BB5E (Noir)",
+        "prix": 538.31
+      },
+      "3932723": {
+        "nom": "Bosch PKN601DP1D (Noir)",
+        "prix": 410.29
+      },
+      "4519229": {
+        "nom": "Cata LCI 6021 BK (Noir)",
+        "prix": 128.83
+      },
+      "4519228": {
+        "nom": "Cata CIB 6021 BK (Noir)",
+        "prix": 128.37
+      },
+      "16713741": {
+        "nom": "Candy CIE854MCBB (Noir)",
+        "prix": 357.3
+      }
+    }
+  }
+}
