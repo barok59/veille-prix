@@ -6,11 +6,13 @@ from discord import envoyer
 def veille_dealabs(cfg, historique):
     deals = charger_deals()
     nouveautes = []
-    for p in cfg["produits"]:
-        for deal in filtrer(deals, p["mots_cles"]):
+    cibles = [(p["nom"], p["mots_cles"]) for p in cfg["produits"]]
+    cibles += [(c["nom"], c["mots_cles"]) for c in cfg.get("categories", [])]
+    for nom, mots in cibles:
+        for deal in filtrer(deals, mots):
             if deal["lien"] not in historique:
                 historique[deal["lien"]] = deal["titre"]
-                nouveautes.append(f"**{p['nom']}** : {deal['titre']}\n{deal['lien']}")
+                nouveautes.append(f"**{nom}** : {deal['titre']}\n{deal['lien']}")
     if nouveautes:
         envoyer("🔔 Deal Dealabs :\n\n" + "\n\n".join(nouveautes))
     else:
