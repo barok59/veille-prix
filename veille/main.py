@@ -139,6 +139,8 @@ def main():
         veille_prix(cfg, historique)
     elif mode == "recap":
         veille_recap(cfg, historique)
+    elif mode == "equivalent":
+        veille_equivalent(cfg, historique)
     else:
         print(f"Mode inconnu : {mode} (utiliser 'dealabs' ou 'prix')")
     hist.parent.mkdir(exist_ok=True)
