@@ -1,0 +1,40 @@
+name: promos
+on:
+  schedule:
+    - cron: "10 7-21/2 * * *"   # toutes les 2 h, de 8h10 à 22h10 à Paris (hiver)
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Diagnostic : affiche les remises lues, n'envoie et ne sauvegarde rien"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: promos
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: playwright install --with-deps chromium
+      - run: python veille/main.py promos
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          HEADLESS: "1"
+          PROMOS_DEBUG: ${{ inputs.debug && '1' || '0' }}
+      - name: Sauvegarder l'historique
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/history_promos.json
+          if ! git diff --cached --quiet; then
+            git commit -m "maj historique promos"
+            git pull --rebase origin main
+            git push
+          fi
