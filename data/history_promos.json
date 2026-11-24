@@ -128,6 +128,14 @@
       "5279554": {
         "nom": "LEGO Friends 41429 Avion Heartlake City",
         "prix": 104.3
+      },
+      "11285108": {
+        "nom": "LEGO Harry Potter 76419 Le château et le parc de Poudlard",
+        "prix": 107.99
+      },
+      "6239478": {
+        "nom": "LEGO Minecraft 21186 Le château de glace",
+        "prix": 77.16
       }
     },
     "Top promo électroménager": {
@@ -270,6 +278,22 @@
       "13504295": {
         "nom": "Siemens ED611BS16E",
         "prix": 1232.03
+      },
+      "4813256": {
+        "nom": "Electrolux EIV63443 (Noir)",
+        "prix": 388.0
+      },
+      "4819920": {
+        "nom": "Electrolux EGG6407K (Noir)",
+        "prix": 174.91
+      },
+      "9276319": {
+        "nom": "Electrolux EIV95550 (Noir)",
+        "prix": 897.17
+      },
+      "7197888": {
+        "nom": "Bosch KFZ40SX0",
+        "prix": 295.98
       }
     }
   }
