@@ -1,6 +1,6 @@
 domaine: electromenager
 deadline: 2027-01-31
-produits:
+categories:
   - nom: Frigo
     mots_cles: ["frigo", "réfrigérateur", "refrigerateur"]
   - nom: Lave-vaisselle
@@ -9,6 +9,26 @@ produits:
     mots_cles: ["four encastrable", "four intégrable", "four integrable", "four vapeur", "four pyrolyse"]
   - nom: Plaque induction
     mots_cles: ["plaque induction", "plaque à induction", "plaque a induction", "table induction"]
+recherches:
+  - nom: Four pyrolyse 60 cm
+    url: ""
+    prix_max: 606
+  - nom: Four vapeur 60 cm
+    url: ""
+    prix_max: 804
+  - nom: Plaque induction 80 cm flex
+    url: ""
+    prix_max: 727
+  - nom: Lave-vaisselle tout intégrable 60 cm
+    url: ""
+    prix_max: 746
+  - nom: Frigo 1 porte 60 cm sans congelateur
+    url: ""
+    prix_max: 650
+  - nom: Hotte murale 85 cm
+    url: ""
+    prix_max: 723
+produits:
   - id: hotte-elica
     nom: Elica Sweet Moon Black
     prix_reference: 628.99
