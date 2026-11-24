@@ -34,7 +34,7 @@ promos:
     pourcent_reduc: 40
   - nom: Top promo électroménager
     url: "https://ledenicheur.fr/actu/top-promo?category=523%7C530%7C580"
-    pourcent_reduc: 40
+    pourcent_reduc: 20
 produits:
   - id: hotte-elica
     nom: Elica Sweet Moon Black
