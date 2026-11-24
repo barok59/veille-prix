@@ -1,0 +1,34 @@
+name: equivalents
+on:
+  schedule:
+    - cron: "30 7,12,18 * * *"   # 8h30, 13h30, 19h30 à Paris (heure d'hiver)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: equivalents
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: playwright install --with-deps chromium
+      - run: python veille/main.py equivalents
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          HEADLESS: "1"
+      - name: Sauvegarder l'historique
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/history_equivalents.json
+          if ! git diff --cached --quiet; then
+            git commit -m "maj historique equivalents"
+            git pull --rebase origin main
+            git push
+          fi
