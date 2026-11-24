@@ -2,6 +2,56 @@ import sys, json, yaml, pathlib, datetime
 from dealabs import charger_deals, filtrer
 from discord import envoyer
 
+def veille_equivalents(cfg, historique):
+    import re
+    from equivalents import lire_recherches
+    recherches = [r for r in cfg.get("recherches", []) if r.get("url")]
+    if not recherches:
+        print("Équivalents : aucune recherche configurée (url vide).")
+        return
+    suivis = set()
+    for p in cfg["produits"]:
+        for s in p.get("sources", []):
+            m = re.search(r"product\.php\?p=(\d+)", s["url"])
+            if m:
+                suivis.add(m.group(1))
+    resultats = lire_recherches(recherches)
+    base = historique.setdefault("recherches", {})
+    alertes, demarrees = [], []
+    for r in recherches:
+        courant = resultats.get(r["nom"])
+        if not courant:
+            print(f"[equiv] {r['nom']} : aucune donnée lue, ignorée")
+            continue
+        connu = base.get(r["nom"])
+        if connu is None:
+            base[r["nom"]] = {pid: {"nom": v["nom"], "prix": v["prix"]} for pid, v in courant.items()}
+            demarrees.append(f"{r['nom']} ({len(courant)} modèles)")
+            continue
+        pmax = r.get("prix_max")
+        for pid, v in courant.items():
+            prix = v["prix"]
+            lien = f"https://ledenicheur.fr/product.php?p={pid}"
+            dans_budget = pmax is None or prix is None or prix <= pmax
+            if pid not in suivis and dans_budget:
+                if pid not in connu:
+                    p_txt = f"{prix:.2f} €" if prix is not None else "prix non lu"
+                    alertes.append(f"🆕 **{r['nom']}** : {v['nom']} à {p_txt}\n{lien}")
+                else:
+                    ancien = connu[pid].get("prix")
+                    if prix is not None and ancien and prix <= ancien * 0.90:
+                        alertes.append(f"📉 **{r['nom']}** : {v['nom']} {ancien:.2f} € → {prix:.2f} € "
+                                       f"({(prix / ancien - 1) * 100:.0f} %)\n{lien}")
+            garde = prix if prix is not None else connu.get(pid, {}).get("prix")
+            connu[pid] = {"nom": v["nom"], "prix": garde}
+    if demarrees:
+        envoyer("🔎 Surveillance des équivalents démarrée : " + ", ".join(demarrees))
+    if alertes:
+        reste = len(alertes) - 8
+        envoyer("\n\n".join(alertes[:8]) + (f"\n\n…et {reste} autre(s)" if reste > 0 else ""))
+    elif not demarrees:
+        print("Équivalents : rien de nouveau.")
+        
 def veille_recap(cfg, historique):
     src = pathlib.Path("data/history_prix.json")
     memoire = json.loads(src.read_text()).get("_prix", {}) if src.exists() else {}
