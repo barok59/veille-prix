@@ -10,13 +10,13 @@
       "dernier_notifie": 629.0
     },
     "four-electrolux-pyro|ledenicheur": {
-      "dernier_prix": 593.74,
-      "plus_bas": 593.74
+      "dernier_prix": 590.8,
+      "plus_bas": 590.8
     },
     "four-electrolux-vapeur|ledenicheur": {
-      "dernier_notifie": 696.35,
-      "dernier_prix": 696.35,
-      "plus_bas": 696.35
+      "dernier_notifie": 689.39,
+      "dernier_prix": 689.39,
+      "plus_bas": 689.39
     },
     "frigo-bosch|ledenicheur": {
       "dernier_prix": 549.0,
@@ -30,6 +30,16 @@
     "plaque-siemens|ledenicheur": {
       "dernier_prix": 680.05,
       "plus_bas": 680.05
+    },
+    "hotte-elica|ledenicheur": {
+      "dernier_notifie": 587.0,
+      "dernier_prix": 587.0,
+      "plus_bas": 587.0
+    },
+    "lave-vaisselle-bosch|ledenicheur": {
+      "dernier_notifie": 629.0,
+      "dernier_prix": 629.0,
+      "plus_bas": 629.0
     }
   }
 }
