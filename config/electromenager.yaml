@@ -11,7 +11,7 @@ categories:
     mots_cles: ["plaque induction", "plaque à induction", "plaque a induction", "table induction"]
 recherches:
   - nom: Four 60 cm pyrolyse
-    url: "https://ledenicheur.fr/c/fours-encastres?1261=2377&559=120602"
+    url: "https://ledenicheur.fr/c/fours-encastres?1261=2377&559=120602&sort=price"
     prix_max: 900
   - nom: Lave-vaisselle 60 cm
     url: "https://ledenicheur.fr/c/lave-vaisselle?105009=37012%7C37013%7C37010%7C37011&1261=2377&99385=32213&r_lowestPrice=381.8-1028.1&sort=price"
@@ -26,13 +26,14 @@ recherches:
     url: "https://ledenicheur.fr/c/plaques-de-cuisson?1261=2379%7C2380&1274=2392&r_lowestPrice=394.4-1026.6&sort=price"
     prix_max: 900
   - nom: Frigo 1 porte 60 cm sans congelateur
-    url: "https://ledenicheur.fr/c/refrigerateurs?1304=2405&3666=3468&r_1265=141.8-1243&r_1426=1433-1931&r_1428=0-619&r_lowestPrice=501-1262.8"
+    url: "https://ledenicheur.fr/c/refrigerateurs?1304=2405&3666=3468&r_1265=141.8-1243&r_1426=1433-1931&r_1428=0-619&r_lowestPrice=501-1262.8&sort=price"
     prix_max: 850
+promos:
   - nom: Lego
-    url: https://ledenicheur.fr/actu/top-promo?brand=2624
+    url: "https://ledenicheur.fr/actu/top-promo?brand=2624"
     pourcent_reduc: 40
-  - nom: top promo
-    url: https://ledenicheur.fr/actu/top-promo?category=523%7C530%7C580
+  - nom: Top promo électroménager
+    url: "https://ledenicheur.fr/actu/top-promo?category=523%7C530%7C580"
     pourcent_reduc: 40
 produits:
   - id: hotte-elica
