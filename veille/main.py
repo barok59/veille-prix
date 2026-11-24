@@ -139,7 +139,7 @@ def main():
         veille_prix(cfg, historique)
     elif mode == "recap":
         veille_recap(cfg, historique)
-    elif mode == "equivalent":
+    elif mode == "equivalents":
         veille_equivalents(cfg, historique)
     else:
         print(f"Mode inconnu : {mode} (utiliser 'dealabs' ou 'prix')")
