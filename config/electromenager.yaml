@@ -1,6 +1,14 @@
 domaine: electromenager
 deadline: 2027-01-31
 produits:
+  - nom: Frigo
+    mots_cles: ["frigo", "réfrigérateur", "refrigerateur"]
+  - nom: Lave-vaisselle
+    mots_cles: ["lave-vaisselle", "lave vaisselle"]
+  - nom: Four encastrable
+    mots_cles: ["four encastrable", "four intégrable", "four integrable", "four vapeur", "four pyrolyse"]
+  - nom: Plaque induction
+    mots_cles: ["plaque induction", "plaque à induction", "plaque a induction", "table induction"]
   - id: hotte-elica
     nom: Elica Sweet Moon Black
     prix_reference: 628.99
