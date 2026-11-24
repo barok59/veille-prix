@@ -8,6 +8,9 @@ def veille_recap(cfg, historique):
     precedent = historique.get("snapshot", {})
     snapshot, lignes = {}, []
     for p in cfg["produits"]:
+        if "id" not in p:
+            print(f"[recap] produit sans id ignoré : {p.get('nom', p)}")
+            continue
         entrees = {k.split("|", 1)[1]: v for k, v in memoire.items()
                    if k.startswith(p["id"] + "|") and v.get("dernier_prix") is not None}
         if not entrees:
