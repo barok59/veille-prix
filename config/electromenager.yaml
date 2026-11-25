@@ -39,6 +39,11 @@ promos:
   - nom: Top promo électroménager
     url: "https://ledenicheur.fr/actu/top-promo?category=523%7C530%7C580"
     pourcent_reduc: 20
+paniers:
+  - nom: Ubaldi
+    seuil: 1000
+    remise: 100
+    produits: [four-electrolux-pyro, four-electrolux-vapeur, frigo-beko]
 produits:
   - id: hotte-elica
     nom: Elica Sweet Moon Black
