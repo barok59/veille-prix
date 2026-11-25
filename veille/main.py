@@ -14,10 +14,11 @@ from discord import envoyer
 def veille_dealabs(cfg, historique):
     deals = charger_deals()
     nouveautes = []
-    cibles = [(p["nom"], p["mots_cles"]) for p in cfg["produits"]]
-    cibles += [(c["nom"], c["mots_cles"]) for c in cfg.get("categories", [])]
-    for nom, mots in cibles:
-        for deal in filtrer(deals, mots):
+    cibles = [(p["nom"], p["mots_cles"], [], "texte") for p in cfg["produits"]]
+    cibles += [(c["nom"], c["mots_cles"], c.get("exclure", []), "titre")
+               for c in cfg.get("categories", [])]
+    for nom, mots, excl, champ in cibles:
+        for deal in filtrer(deals, mots, excl, champ):
             if deal["lien"] not in historique:
                 historique[deal["lien"]] = deal["titre"]
                 nouveautes.append(f"**{nom}** : {deal['titre']}\n{deal['lien']}")
