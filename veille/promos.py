@@ -35,19 +35,23 @@ def collecter(promos, base, debug=False, max_fiches=12, etat=None):
     with sync_playwright() as p:
         try:
             nav = p.chromium.launch(channel="chrome", headless=headless)
-        except Exception:
-            nav = p.chromium.launch(headless=headless)
-        page = nav.new_page()
+        except Exception as e:
+                print(f"[promos] {r['nom']} -> ERREUR {str(e)[:100]}")
+                if etat is not None:
+                    etat[r["nom"]] = False
+                page.close()
+                page = nav.new_page()
+                continue
         for r in promos:
             try:
                 page.goto(r["url"], wait_until="domcontentloaded", timeout=45000)
                 page.wait_for_timeout(5000)
                 tuiles = lire_tuiles(page)
             except Exception as e:
-                print(f"[promos] {r['nom']} -> ERREUR {str(e)[:100]}")
-                if etat is not None:
-                    etat[r["nom"]] = False
-                continue
+                        print(f"[promos]   fiche {pid} -> ERREUR {str(e)[:80]}")
+                        cache[pid] = (None, None)
+                        page.close()
+                        page = nav.new_page()
             print(f"[promos] {r['nom']} : {len(tuiles)} offres lues")
             if etat is not None:
                 etat[r["nom"]] = bool(tuiles)
