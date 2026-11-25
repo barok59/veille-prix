@@ -75,7 +75,7 @@
       },
       "4481031": {
         "nom": "Whirlpool OAKZ9 7961/SP/IX (Inox)",
-        "prix": 535.66
+        "prix": 536.79
       },
       "5237668": {
         "nom": "Candy FCT686X WIFI (Inox)",
@@ -341,7 +341,7 @@
       },
       "7160541": {
         "nom": "Teka DFS46750 Vit",
-        "prix": 570.65
+        "prix": 577.5
       },
       "7202879": {
         "nom": "Gorenje GS620C10S Inox",
@@ -481,7 +481,7 @@
       },
       "16778401": {
         "nom": "Bosch Serie 4 SMS4ECW28E (Blanc)",
-        "prix": 912.1
+        "prix": 822.01
       },
       "6506249": {
         "nom": "LG DF455HSS Inox",
@@ -711,7 +711,7 @@
       },
       "3784865": {
         "nom": "Falmec Quasar LED 90cm Murale (Noir)",
-        "prix": 841.88
+        "prix": 815.96
       },
       "3786561": {
         "nom": "Falmec Move 90cm (Blanc)",
@@ -780,6 +780,10 @@
       "15858482": {
         "nom": "Electrolux LFG815K (Black)",
         "prix": 560.0
+      },
+      "6489253": {
+        "nom": "Klarstein Montblanc 90 (Crème)",
+        "prix": 262.0
       }
     },
     "Four vapeur 60 cm": {
@@ -801,7 +805,7 @@
       },
       "6221309": {
         "nom": "Beko BBIE13300XC (Inox)",
-        "prix": 338.68
+        "prix": 335.35
       },
       "5031026": {
         "nom": "SMEG SF64M3TVX (Inox)",
@@ -947,7 +951,7 @@
       },
       "5876382": {
         "nom": "Electrolux LIL83443 (Noir)",
-        "prix": 416.17
+        "prix": 462.89
       },
       "5907143": {
         "nom": "Electrolux EIL83443 (Noir)",
@@ -1027,7 +1031,7 @@
       },
       "16223127": {
         "nom": "Electrolux CIL83441 (Noir)",
-        "prix": 634.37
+        "prix": 633.44
       },
       "16901949": {
         "nom": "Electrolux EIV85453 (Noir)",
@@ -1067,7 +1071,7 @@
       },
       "5876515": {
         "nom": "Electrolux EIV85443 (Noir)",
-        "prix": 672.51
+        "prix": 670.46
       },
       "3708412": {
         "nom": "Siemens EX875LYC1E (Noir)",
@@ -1147,7 +1151,7 @@
       },
       "15114721": {
         "nom": "Electrolux EIS82453 (Noir)",
-        "prix": 570.0
+        "prix": 595.72
       },
       "4888369": {
         "nom": "AEG IKE84471XB (Inox)",
@@ -1179,7 +1183,7 @@
       },
       "3975769": {
         "nom": "Beko HII84500FHTX (Inox)",
-        "prix": 828.95
+        "prix": 787.84
       },
       "3892837": {
         "nom": "Novy 1757 Confort Induction (Noir)",
@@ -1215,7 +1219,7 @@
       },
       "4000743": {
         "nom": "Siemens EX875LVC1E (Noir)",
-        "prix": 892.5
+        "prix": 892.6
       },
       "15115131": {
         "nom": "Siemens EX801HVC1E (Noir)",
@@ -1293,7 +1297,7 @@
       },
       "7574984": {
         "nom": "Beko B3RMLNE444HXB (Acier inoxydable)",
-        "prix": 516.71
+        "prix": 530.46
       },
       "2150568": {
         "nom": "Siemens KS36FPW30 (Blanc)",
@@ -1409,7 +1413,7 @@
       },
       "16640727": {
         "nom": "Beko RSSE415M41GN (Gris)",
-        "prix": 833.49
+        "prix": 901.07
       },
       "16707367": {
         "nom": "Haier HDPW5618CNPK (Argent)",
@@ -1445,7 +1449,7 @@
       },
       "16640756": {
         "nom": "Beko B1RMLNE444XB (Acier inoxydable)",
-        "prix": 1023.79
+        "prix": 1033.43
       },
       "13944524": {
         "nom": "Liebherr Rd 5000-22 001 (Blanc)",
@@ -1469,7 +1473,7 @@
       },
       "15853109": {
         "nom": "Electrolux LRS3DE39W (Blanc)",
-        "prix": 1054.89
+        "prix": 1140.42
       },
       "12097151": {
         "nom": "Samsung RR39C7EC5B1 (Noir)",
@@ -1485,11 +1489,11 @@
       },
       "16473554": {
         "nom": "Bomann KG7354IX",
-        "prix": 1126.64
+        "prix": 1137.91
       },
       "5595291": {
         "nom": "LG GLT51PZGSZ (Acier inoxydable)",
-        "prix": 1174.05
+        "prix": 1178.88
       },
       "5480033": {
         "nom": "Siemens KS36VAIDP (Acier inoxydable)",
