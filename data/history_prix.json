@@ -83,8 +83,8 @@
   },
   "_sante": {
     "prix:hotte-elica|primo-ideo": {
-      "echecs": 2,
-      "alerte": false,
+      "echecs": 3,
+      "alerte": true,
       "dernier_ok": "2026-11-25T20:00:00+00:00",
       "libelle": "Elica Sweet Moon Black (primo-ideo)"
     },
