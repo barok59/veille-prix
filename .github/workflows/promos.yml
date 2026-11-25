@@ -28,6 +28,6 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           HEADLESS: "1"
           PROMOS_DEBUG: ${{ inputs.debug && '1' || '0' }}
-      -  name: Sauvegarder l'historique
+      - name: Sauvegarder l'historique
         run: bash .github/scripts/sauvegarder.sh data/history_promos.json
         
