@@ -2,44 +2,145 @@
   "_prix": {
     "hotte-elica|primo-ideo": {
       "dernier_prix": 628.99,
-      "plus_bas": 628.99
+      "plus_bas": 628.99,
+      "vendeur": null,
+      "prix_enseigne": 628.99,
+      "vendeur_enseigne": null,
+      "vendeurs_lus": true
     },
     "lave-vaisselle-bosch|connexion": {
       "dernier_prix": 629.0,
       "plus_bas": 629.0,
-      "dernier_notifie": 629.0
+      "dernier_notifie": 629.0,
+      "dernier_notifie_enseigne": 629.0,
+      "vendeur": null,
+      "prix_enseigne": 629.0,
+      "vendeur_enseigne": null,
+      "vendeurs_lus": true
     },
     "four-electrolux-pyro|ledenicheur": {
       "dernier_prix": 571.88,
-      "plus_bas": 571.88
+      "plus_bas": 571.88,
+      "vendeur": "Cdiscount Marketplace",
+      "prix_enseigne": 620.96,
+      "vendeur_enseigne": "Castorama",
+      "vendeurs_lus": true
     },
     "four-electrolux-vapeur|ledenicheur": {
       "dernier_notifie": 689.39,
       "dernier_prix": 689.39,
-      "plus_bas": 689.39
+      "plus_bas": 689.39,
+      "vendeur": "Darty Marketplace",
+      "prix_enseigne": 1095.19,
+      "vendeur_enseigne": "ManoMano",
+      "vendeurs_lus": true
     },
     "frigo-bosch|ledenicheur": {
       "dernier_prix": 599.99,
-      "plus_bas": 549.0
+      "plus_bas": 549.0,
+      "vendeur": "Cdiscount",
+      "prix_enseigne": 599.99,
+      "vendeur_enseigne": "Cdiscount",
+      "vendeurs_lus": true
     },
     "frigo-beko|ledenicheur": {
       "dernier_notifie": 529.37,
       "dernier_prix": 529.37,
-      "plus_bas": 511.59
+      "plus_bas": 511.59,
+      "dernier_notifie_enseigne": 531.83,
+      "vendeur": "Cdiscount Marketplace",
+      "prix_enseigne": 531.83,
+      "vendeur_enseigne": "Amazon.fr",
+      "vendeurs_lus": true
     },
     "plaque-siemens|ledenicheur": {
       "dernier_prix": 680.05,
-      "plus_bas": 680.05
+      "plus_bas": 680.05,
+      "vendeur": null,
+      "prix_enseigne": null,
+      "vendeur_enseigne": null,
+      "vendeurs_lus": true
     },
     "hotte-elica|ledenicheur": {
       "dernier_notifie": 587.0,
       "dernier_prix": 587.0,
-      "plus_bas": 587.0
+      "plus_bas": 587.0,
+      "vendeur": "eBay",
+      "prix_enseigne": 869.99,
+      "vendeur_enseigne": "Darty",
+      "vendeurs_lus": true
     },
     "lave-vaisselle-bosch|ledenicheur": {
       "dernier_notifie": 599.0,
       "dernier_prix": 599.0,
-      "plus_bas": 599.0
+      "plus_bas": 599.0,
+      "dernier_notifie_enseigne": 599.0,
+      "vendeur": "Boulanger",
+      "prix_enseigne": 599.0,
+      "vendeur_enseigne": "Boulanger",
+      "vendeurs_lus": true
+    }
+  },
+  "_sante": {
+    "prix:hotte-elica|primo-ideo": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Elica Sweet Moon Black (primo-ideo)"
+    },
+    "prix:hotte-elica|ledenicheur": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Elica Sweet Moon Black (ledenicheur)"
+    },
+    "prix:four-electrolux-pyro|ledenicheur": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Electrolux EOF6P46RX (ledenicheur)"
+    },
+    "prix:four-electrolux-vapeur|ledenicheur": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Electrolux EOB8S39Z (ledenicheur)"
+    },
+    "prix:plaque-siemens|ledenicheur": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Siemens EX875LYC1E (ledenicheur)"
+    },
+    "prix:lave-vaisselle-bosch|connexion": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Bosch SMV4EVX36F (connexion)"
+    },
+    "prix:lave-vaisselle-bosch|ledenicheur": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Bosch SMV4EVX36F (ledenicheur)"
+    },
+    "prix:frigo-bosch|ledenicheur": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Bosch KSV33VLEP (ledenicheur)"
+    },
+    "prix:frigo-beko|ledenicheur": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "Beko B3RMLNE444HXB (ledenicheur)"
+    },
+    "mode:prix": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "mode prix"
     }
   }
 }
