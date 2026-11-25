@@ -1,11 +1,19 @@
 {
   "snapshot": {
     "hotte-elica": 587.0,
-    "four-electrolux-pyro": 590.8,
+    "four-electrolux-pyro": 571.88,
     "four-electrolux-vapeur": 689.39,
     "plaque-siemens": 680.05,
-    "lave-vaisselle-bosch": 629.0,
-    "frigo-bosch": 549.0,
-    "frigo-beko": 511.59
+    "lave-vaisselle-bosch": 599.0,
+    "frigo-bosch": 599.99,
+    "frigo-beko": 529.37
+  },
+  "_sante": {
+    "mode:recap": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-25T20:00:00+00:00",
+      "libelle": "mode recap"
+    }
   }
 }
