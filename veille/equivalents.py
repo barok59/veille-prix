@@ -73,7 +73,11 @@ def _lire_recherche(page, r):
         if total is None:
             m = RE_TOTAL.search(page.inner_text("body"))
             total = int(re.sub(r"\D", "", m.group(1))) if m else None
-        tuiles = lire_tuiles(page, TAILLE_PAGE)
+        # Après les résultats, la page ajoute des suggestions : on ne garde que les résultats restants.
+        limite = TAILLE_PAGE if total is None else min(TAILLE_PAGE, total - len(produits))
+        if limite <= 0:
+            break
+        tuiles = lire_tuiles(page, limite)
         nouveaux = {k: v for k, v in tuiles.items() if k not in produits}
         prix = [v["prix"] for v in tuiles.values() if v["prix"] is not None]
         bas = f"{min(prix):.0f}" if prix else "?"
