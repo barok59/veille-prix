@@ -20,13 +20,5 @@ jobs:
       - run: python veille/main.py dealabs
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-      - name: Sauvegarder l'historique
-        run: |
-          git config user.name "veille-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add data/history_dealabs.json
-          if ! git diff --cached --quiet; then
-            git commit -m "maj historique dealabs"
-            git pull --rebase origin main
-            git push
-          fi
+      -  name: Sauvegarder l'historique
+        run: bash .github/scripts/sauvegarder.sh  data/history_dealabs.json
