@@ -85,7 +85,6 @@ def _ledenicheur(page):
 EXTRACTEURS = {"connexion": _connexion, "primo-ideo": _primo_ideo,
                "ledenicheur": _ledenicheur}
 
-
 def lire_prix_sources(sources):
     """Renvoie {url: dict(prix, vendeur, prix_enseigne, vendeur_enseigne, vendeurs_lus)}."""
     resultats = {}
@@ -95,8 +94,8 @@ def lire_prix_sources(sources):
             nav = p.chromium.launch(channel="chrome", headless=headless)
         except Exception:
             nav = p.chromium.launch(headless=headless)
-        page = nav.new_page()
         for s in sources:
+            page = nav.new_page()  # une page neuve par source : une erreur n'en contamine pas d'autres
             try:
                 rep = page.goto(s["url"], wait_until="domcontentloaded", timeout=45000)
                 page.wait_for_timeout(3000)
@@ -107,5 +106,8 @@ def lire_prix_sources(sources):
             except Exception as e:
                 print(f"[prix] {s['site']} -> ERREUR {str(e)[:100]}")
                 resultats[s["url"]] = _resultat(None)
+            finally:
+                page.close()
         nav.close()
     return resultats
+
