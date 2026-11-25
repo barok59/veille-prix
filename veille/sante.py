@@ -1,8 +1,9 @@
 import datetime
+import os
 
 from discord import envoyer_long
 
-SEUIL = 3
+SEUIL = int(os.environ.get("SANTE_SEUIL", "3"))
 
 
 def maintenant():
@@ -50,6 +51,7 @@ def suivre(historique, cle, ok, libelle, evenements, seuil=SEUIL):
             evenements.append(f"✅ Source rétablie : {libelle}")
     else:
         e["echecs"] += 1
+        print(f"[sante] {libelle} : échec {e['echecs']}/{seuil}")
         if e["echecs"] >= seuil and not e["alerte"]:
             e["alerte"] = True
             evenements.append(f"⚠️ Source muette depuis {e['echecs']} passages : {libelle} "
@@ -58,4 +60,5 @@ def suivre(historique, cle, ok, libelle, evenements, seuil=SEUIL):
 
 def signaler(evenements):
     if evenements:
+        print(f"[sante] envoi de {len(evenements)} message(s) de santé")
         envoyer_long("🩺 Santé de l'agent :\n" + "\n".join(evenements))
