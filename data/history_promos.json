@@ -136,6 +136,22 @@
       "6239478": {
         "nom": "LEGO Minecraft 21186 Le château de glace",
         "prix": 77.16
+      },
+      "5231833": {
+        "nom": "LEGO Minecraft 21160 L'attaque du villageois",
+        "prix": 139.99
+      },
+      "5946059": {
+        "nom": "LEGO Ninjago 71765 Le robot ninja ultra combiné",
+        "prix": 156.73
+      },
+      "7279868": {
+        "nom": "LEGO Ninjago 71787 Boîte de briques Ninja créative",
+        "prix": 120.0
+      },
+      "5929592": {
+        "nom": "LEGO City 60320 Caserne de pompiers",
+        "prix": 109.9
       }
     },
     "Top promo électroménager": {
@@ -294,6 +310,14 @@
       "7197888": {
         "nom": "Bosch KFZ40SX0",
         "prix": 295.98
+      },
+      "4084469": {
+        "nom": "SMEG SRV876POGH (Crème)",
+        "prix": 379.0
+      },
+      "3238285": {
+        "nom": "Electrolux EHF6232IOK (Noir)",
+        "prix": 205.49
       }
     }
   }
