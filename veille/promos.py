@@ -50,16 +50,30 @@ def collecter(promos, base, debug=False, max_fiches=12):
                 continue
             connu = base.get(r["nom"])
             if debug:
-                a_traiter = list(tuiles.items())[:3]
+                a_traiter = [(pid, v, None) for pid, v in list(tuiles.items())[:3]]
             elif connu is None:
                 base[r["nom"]] = {pid: {"nom": v["nom"], "prix": v["prix"]}
                                   for pid, v in tuiles.items()}
                 demarrees.append(f"{r['nom']} ({len(tuiles)} offres)")
                 continue
             else:
-                a_traiter = [(pid, v) for pid, v in tuiles.items() if pid not in connu][:max_fiches]
+                # Si une offre connue remonte, on relève sa référence
+                for pid, v in tuiles.items():
+                    if pid in connu and v["prix"] is not None:
+                        ancien = connu[pid].get("prix")
+                        if ancien and v["prix"] > ancien:
+                            connu[pid]["prix"] = v["prix"]
+                a_traiter = []
+                for pid, v in tuiles.items():
+                    if pid not in connu:
+                        a_traiter.append((pid, v, None))
+                    else:
+                        ancien = connu[pid].get("prix")
+                        if v["prix"] is not None and ancien and v["prix"] <= ancien * 0.90:
+                            a_traiter.append((pid, v, ancien))
+                a_traiter = a_traiter[:max_fiches]
             seuil = float(r.get("pourcent_reduc", 0))
-            for pid, v in a_traiter:
+            for pid, v, ancien in a_traiter:
                 if pid not in cache:
                     try:
                         cache[pid] = lire_min_max(page, pid)
@@ -70,12 +84,14 @@ def collecter(promos, base, debug=False, max_fiches=12):
                 prix = v["prix"]
                 remise = (1 - prix / maxi) * 100 if (prix is not None and maxi) else None
                 txt = f"{remise:.0f} %" if remise is not None else "?"
-                print(f"[promos]   {v['nom'][:45]} | prix {prix} | min {mini} | max {maxi} | remise {txt}")
+                type_ = "baisse" if ancien else "nouveau"
+                print(f"[promos]   [{type_}] {v['nom'][:45]} | prix {prix} | min {mini} | max {maxi} | remise {txt}")
                 if not debug:
                     if remise is not None and remise >= seuil:
+                        suite = f" (en baisse depuis {ancien:.2f} €)" if ancien else ""
                         alertes.append(
                             f"🏷️ **{r['nom']}** : {v['nom']} à {prix:.2f} € "
-                            f"(-{remise:.0f} % vs prix max récent {maxi:.2f} €)\n"
+                            f"(-{remise:.0f} % vs prix max récent {maxi:.2f} €){suite}\n"
                             f"https://ledenicheur.fr/product.php?p={pid}")
                     connu[pid] = {"nom": v["nom"], "prix": prix}
         nav.close()
