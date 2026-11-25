@@ -3,12 +3,16 @@ deadline: 2027-01-31
 categories:
   - nom: Frigo
     mots_cles: ["frigo", "réfrigérateur", "refrigerateur"]
+    exclure: ["mini frigo", "mini-frigo", "mini réfrigérateur", "mini refrigerateur", "aimant", "glacière", "glaciere", "cave à vin", "cave a vin", "sac isotherme"]
   - nom: Lave-vaisselle
     mots_cles: ["lave-vaisselle", "lave vaisselle"]
+    exclure: ["tablette", "pastille", "capsule", "pods", "liquide", "rinçage", "rincage", "détartrant", "detartrant", "nettoyant", "finish", "somat", "cascade"]
   - nom: Four encastrable
     mots_cles: ["four encastrable", "four intégrable", "four integrable", "four vapeur", "four pyrolyse"]
+    exclure: ["micro-ondes", "micro ondes", "friteuse", "airfryer", "accessoire", "plat à four", "plat a four"]
   - nom: Plaque induction
     mots_cles: ["plaque induction", "plaque à induction", "plaque a induction", "table induction"]
+    exclure: ["portable", "posable", "mobile", "1 feu", "2 feux", "protège", "protege", "protection", "casserole", "poêle", "poele", "adaptateur"]
 recherches:
   - nom: Four 60 cm pyrolyse
     url: "https://ledenicheur.fr/c/fours-encastres?1261=2377&559=120602&sort=price"
