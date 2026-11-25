@@ -156,6 +156,18 @@
       "14967973": {
         "nom": "LEGO Star Wars 75413 Republic Juggernaut",
         "prix": 94.99
+      },
+      "4946811": {
+        "nom": "LEGO Creator 10263 Caserne de pompiers du village d'hiver",
+        "prix": 113.9
+      },
+      "3738441": {
+        "nom": "LEGO Creator 10252 Volkswagen Beetle",
+        "prix": 152.9
+      },
+      "6239476": {
+        "nom": "LEGO Star Wars 75339 Diorama du compacteur d’ordures de l’Étoile de la Mort",
+        "prix": 112.56
       }
     },
     "Top promo électroménager": {
@@ -326,6 +338,10 @@
       "15646309": {
         "nom": "Candy Rapido CF 6B4F0W (Blanc)",
         "prix": 379.99
+      },
+      "16157748": {
+        "nom": "Bomann VSE7811 (Blanc)",
+        "prix": 339.0
       }
     }
   }
