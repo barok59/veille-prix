@@ -27,8 +27,9 @@ def lire_min_max(page, pid):
     return _nombre(m.group(1)), _nombre(m.group(2))
 
 
-def collecter(promos, base, debug=False, max_fiches=12):
-    """Modifie `base` en place. Renvoie (alertes, demarrees)."""
+def collecter(promos, base, debug=False, max_fiches=12, etat=None):
+    """Modifie `base` en place. `etat[nom]` = True si la page a été lue.
+    Renvoie (alertes, demarrees)."""
     alertes, demarrees, cache = [], [], {}
     headless = os.environ.get("HEADLESS") == "1"
     with sync_playwright() as p:
@@ -44,8 +45,12 @@ def collecter(promos, base, debug=False, max_fiches=12):
                 tuiles = lire_tuiles(page)
             except Exception as e:
                 print(f"[promos] {r['nom']} -> ERREUR {str(e)[:100]}")
+                if etat is not None:
+                    etat[r["nom"]] = False
                 continue
             print(f"[promos] {r['nom']} : {len(tuiles)} offres lues")
+            if etat is not None:
+                etat[r["nom"]] = bool(tuiles)
             if not tuiles:
                 continue
             connu = base.get(r["nom"])
