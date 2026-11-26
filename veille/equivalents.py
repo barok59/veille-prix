@@ -103,10 +103,9 @@ def lire_recherches(recherches):
     with sync_playwright() as p:
         try:
             nav = p.chromium.launch(channel="chrome", headless=headless)
-            except Exception as e:
-                print(f"[equiv] {r['nom']} -> ERREUR {str(e)[:100]}")
-                page.close()
-                page = nav.new_page()
+        except Exception:
+            nav = p.chromium.launch(headless=headless)
+        page = nav.new_page()
         for r in recherches:
             try:
                 res = _lire_recherche(page, r)
@@ -114,5 +113,10 @@ def lire_recherches(recherches):
                 resultats[r["nom"]] = res
             except Exception as e:
                 print(f"[equiv] {r['nom']} -> ERREUR {str(e)[:100]}")
+                try:
+                    page.close()
+                except Exception:
+                    pass
+                page = nav.new_page()
         nav.close()
     return resultats
