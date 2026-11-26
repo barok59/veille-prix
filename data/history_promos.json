@@ -59,7 +59,7 @@
       },
       "4585410": {
         "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
-        "prix": 92.41
+        "prix": 75.05
       },
       "16551981": {
         "nom": "LEGO Ninjago 71872 Strid med ultradraken",
@@ -83,7 +83,7 @@
       },
       "13023595": {
         "nom": "LEGO City 60413 Avion de sauvetage incendie",
-        "prix": 99.9
+        "prix": 104.44
       },
       "5946042": {
         "nom": "LEGO Technic 42138 Ford Mustang Shelby GT500",
@@ -219,7 +219,7 @@
       },
       "11870548": {
         "nom": "LEGO Icons 10321 Corvette",
-        "prix": 184.99
+        "prix": 219.99
       },
       "11044687": {
         "nom": "LEGO Ninjago 71797 La destinée de Destiny : Course contre la montre",
@@ -228,6 +228,14 @@
       "5018853": {
         "nom": "LEGO Minecraft 21151 Le combat final",
         "prix": 69.88
+      },
+      "12950530": {
+        "nom": "LEGO Harry Potter 76426 Le hangar à bateaux du château de Poudlard",
+        "prix": 91.4
+      },
+      "12992507": {
+        "nom": "LEGO Marvel 76285 Le masque de Spider-Man",
+        "prix": 99.0
       }
     },
     "Top promo électroménager": {
@@ -385,7 +393,7 @@
       },
       "7197888": {
         "nom": "Bosch KFZ40SX0",
-        "prix": 295.98
+        "prix": 296.99
       },
       "4084469": {
         "nom": "SMEG SRV876POGH (Crème)",
@@ -418,6 +426,10 @@
       "16777807": {
         "nom": "Cecotec Bolero CoolMarket TT Origin 45 (Vert)",
         "prix": 119.0
+      },
+      "12356859": {
+        "nom": "Bosch PVJ611BB6E (Noir)",
+        "prix": 434.23
       }
     }
   },
@@ -425,19 +437,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T20:00:00+00:00",
+      "dernier_ok": "2026-11-26T21:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T20:00:00+00:00",
+      "dernier_ok": "2026-11-26T21:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T20:00:00+00:00",
+      "dernier_ok": "2026-11-26T21:00:00+00:00",
       "libelle": "mode promos"
     }
   }
