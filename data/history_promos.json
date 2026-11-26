@@ -59,7 +59,7 @@
       },
       "4585410": {
         "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
-        "prix": 92.41
+        "prix": 75.05
       },
       "16551981": {
         "nom": "LEGO Ninjago 71872 Strid med ultradraken",
@@ -200,6 +200,18 @@
       "11794576": {
         "nom": "LEGO Star Wars 75371 Chewbacca",
         "prix": 179.0
+      },
+      "5228781": {
+        "nom": "LEGO Star Wars 75276 Casque de Stormtrooper",
+        "prix": 164.99
+      },
+      "5759276": {
+        "nom": "LEGO Harry Potter 76389 La Chambre des Secrets de Poudlard",
+        "prix": 167.34
+      },
+      "13379754": {
+        "nom": "LEGO Super Mario 71436 King Boo’s Haunted Mansion Set",
+        "prix": 96.94
       }
     },
     "Top promo électroménager": {
@@ -382,6 +394,14 @@
       "19528854": {
         "nom": "Cata IB2 PLUS BK (Noir)",
         "prix": 250.0
+      },
+      "15966685": {
+        "nom": "Whirlpool W8FHS61BS (Inox)",
+        "prix": 599.0
+      },
+      "16777807": {
+        "nom": "Cecotec Bolero CoolMarket TT Origin 45 (Vert)",
+        "prix": 119.0
       }
     }
   },
@@ -389,19 +409,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T14:00:00+00:00",
+      "dernier_ok": "2026-11-26T16:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T14:00:00+00:00",
+      "dernier_ok": "2026-11-26T16:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T14:00:00+00:00",
+      "dernier_ok": "2026-11-26T16:00:00+00:00",
       "libelle": "mode promos"
     }
   }
