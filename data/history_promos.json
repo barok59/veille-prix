@@ -212,6 +212,22 @@
       "13379754": {
         "nom": "LEGO Super Mario 71436 King Boo’s Haunted Mansion Set",
         "prix": 121.76
+      },
+      "7279867": {
+        "nom": "LEGO Ninjago 71785 Le robot titan de Jay",
+        "prix": 102.38
+      },
+      "11870548": {
+        "nom": "LEGO Icons 10321 Corvette",
+        "prix": 184.99
+      },
+      "11044687": {
+        "nom": "LEGO Ninjago 71797 La destinée de Destiny : Course contre la montre",
+        "prix": 204.26
+      },
+      "5018853": {
+        "nom": "LEGO Minecraft 21151 Le combat final",
+        "prix": 69.88
       }
     },
     "Top promo électroménager": {
@@ -409,19 +425,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T17:00:00+00:00",
+      "dernier_ok": "2026-11-26T20:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T17:00:00+00:00",
+      "dernier_ok": "2026-11-26T20:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T17:00:00+00:00",
+      "dernier_ok": "2026-11-26T20:00:00+00:00",
       "libelle": "mode promos"
     }
   }
