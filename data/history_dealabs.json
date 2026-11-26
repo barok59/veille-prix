@@ -31,14 +31,15 @@
     "dealabs:flux": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-25T23:00:00+00:00",
+      "dernier_ok": "2026-11-26T00:00:00+00:00",
       "libelle": "Flux Dealabs (rss/tous)"
     },
     "mode:dealabs": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-25T23:00:00+00:00",
+      "dernier_ok": "2026-11-26T00:00:00+00:00",
       "libelle": "mode dealabs"
     }
-  }
+  },
+  "https://www.dealabs.com/bons-plans/plaque-a-induction-avec-hotte-integre-3469605": "Plaque Induction AirJet Hybrid - 83cm, 4 Feux, avec Hotte Intégrée"
 }
