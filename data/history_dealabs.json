@@ -31,15 +31,16 @@
     "dealabs:flux": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T14:00:00+00:00",
+      "dernier_ok": "2026-11-26T15:00:00+00:00",
       "libelle": "Flux Dealabs (rss/tous)"
     },
     "mode:dealabs": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T14:00:00+00:00",
+      "dernier_ok": "2026-11-26T15:00:00+00:00",
       "libelle": "mode dealabs"
     }
   },
-  "https://www.dealabs.com/bons-plans/plaque-a-induction-avec-hotte-integre-3469605": "Plaque Induction AirJet Hybrid - 83cm, 4 Feux, avec Hotte Intégrée"
+  "https://www.dealabs.com/bons-plans/plaque-a-induction-avec-hotte-integre-3469605": "Plaque Induction AirJet Hybrid - 83cm, 4 Feux, avec Hotte Intégrée",
+  "https://www.dealabs.com/bons-plans/lave-vaisselle-pose-libre-continental-edison-celv1247cw-12-couverts-l60cm-classe-c-3466536": "Lave-vaisselle pose libre Continental Edison CELV1247CW - 12 couverts, L60cm, Classe C"
 }
