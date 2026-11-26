@@ -27,6 +27,15 @@ def lire_min_max(page, pid):
     return _nombre(m.group(1)), _nombre(m.group(2))
 
 
+def _nouvelle_page(nav, page):
+    """Ferme la page courante (si possible) et en ouvre une neuve."""
+    try:
+        page.close()
+    except Exception:
+        pass
+    return nav.new_page()
+
+
 def collecter(promos, base, debug=False, max_fiches=12, etat=None):
     """Modifie `base` en place. `etat[nom]` = True si la page a été lue.
     Renvoie (alertes, demarrees)."""
@@ -35,23 +44,20 @@ def collecter(promos, base, debug=False, max_fiches=12, etat=None):
     with sync_playwright() as p:
         try:
             nav = p.chromium.launch(channel="chrome", headless=headless)
-        except Exception as e:
-                print(f"[promos] {r['nom']} -> ERREUR {str(e)[:100]}")
-                if etat is not None:
-                    etat[r["nom"]] = False
-                page.close()
-                page = nav.new_page()
-                continue
+        except Exception:
+            nav = p.chromium.launch(headless=headless)
+        page = nav.new_page()
         for r in promos:
             try:
                 page.goto(r["url"], wait_until="domcontentloaded", timeout=45000)
                 page.wait_for_timeout(5000)
                 tuiles = lire_tuiles(page)
             except Exception as e:
-                        print(f"[promos]   fiche {pid} -> ERREUR {str(e)[:80]}")
-                        cache[pid] = (None, None)
-                        page.close()
-                        page = nav.new_page()
+                print(f"[promos] {r['nom']} -> ERREUR {str(e)[:100]}")
+                if etat is not None:
+                    etat[r["nom"]] = False
+                page = _nouvelle_page(nav, page)
+                continue
             print(f"[promos] {r['nom']} : {len(tuiles)} offres lues")
             if etat is not None:
                 etat[r["nom"]] = bool(tuiles)
@@ -89,6 +95,7 @@ def collecter(promos, base, debug=False, max_fiches=12, etat=None):
                     except Exception as e:
                         print(f"[promos]   fiche {pid} -> ERREUR {str(e)[:80]}")
                         cache[pid] = (None, None)
+                        page = _nouvelle_page(nav, page)
                 mini, maxi = cache[pid]
                 prix = v["prix"]
                 remise = (1 - prix / maxi) * 100 if (prix is not None and maxi) else None
