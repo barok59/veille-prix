@@ -87,7 +87,7 @@
       },
       "5946042": {
         "nom": "LEGO Technic 42138 Ford Mustang Shelby GT500",
-        "prix": 78.91
+        "prix": 80.66
       },
       "6239506": {
         "nom": "LEGO Harry Potter 76401 Cour de Poudlard : Le sauvetage de Sirius",
@@ -147,7 +147,7 @@
       },
       "7279868": {
         "nom": "LEGO Ninjago 71787 Boîte de briques Ninja créative",
-        "prix": 120.0
+        "prix": 87.06
       },
       "5929592": {
         "nom": "LEGO City 60320 Caserne de pompiers",
@@ -184,6 +184,14 @@
       "3464729": {
         "nom": "LEGO DC Comics Super Heroes 76046 Heroes of Justice: Sky High Battle",
         "prix": 78.44
+      },
+      "4628495": {
+        "nom": "LEGO Duplo 10871 Aéroport",
+        "prix": 83.43
+      },
+      "13031789": {
+        "nom": "LEGO Technic 42181 VTOL Vaisseau spatial de transport lourd LT81",
+        "prix": 114.55
       }
     },
     "Top promo électroménager": {
@@ -362,7 +370,31 @@
       "16118912": {
         "nom": "Electrolux LGM62821OB",
         "prix": 229.99
+      },
+      "19528854": {
+        "nom": "Cata IB2 PLUS BK (Noir)",
+        "prix": 250.0
       }
+    }
+  },
+  "_sante": {
+    "promos:Lego": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-26T09:00:00+00:00",
+      "libelle": "Promos « Lego »"
+    },
+    "promos:Top promo électroménager": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-26T09:00:00+00:00",
+      "libelle": "Promos « Top promo électroménager »"
+    },
+    "mode:promos": {
+      "echecs": 0,
+      "alerte": false,
+      "dernier_ok": "2026-11-26T09:00:00+00:00",
+      "libelle": "mode promos"
     }
   }
 }
