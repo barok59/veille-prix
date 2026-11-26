@@ -192,6 +192,10 @@
       "13031789": {
         "nom": "LEGO Technic 42181 VTOL Vaisseau spatial de transport lourd LT81",
         "prix": 114.55
+      },
+      "9844633": {
+        "nom": "LEGO Jurassic World 76960 Découverte du Brachiosaurus",
+        "prix": 113.99
       }
     },
     "Top promo électroménager": {
@@ -381,19 +385,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T09:00:00+00:00",
+      "dernier_ok": "2026-11-26T10:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T09:00:00+00:00",
+      "dernier_ok": "2026-11-26T10:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T09:00:00+00:00",
+      "dernier_ok": "2026-11-26T10:00:00+00:00",
       "libelle": "mode promos"
     }
   }
