@@ -31,13 +31,13 @@
     "dealabs:flux": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T20:00:00+00:00",
+      "dernier_ok": "2026-11-27T21:00:00+00:00",
       "libelle": "Flux Dealabs (rss/tous)"
     },
     "mode:dealabs": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T20:00:00+00:00",
+      "dernier_ok": "2026-11-27T21:00:00+00:00",
       "libelle": "mode dealabs"
     }
   },
@@ -52,5 +52,6 @@
   "https://www.dealabs.com/bons-plans/lave-vaisselle-pose-libre-hisense-3472611": "Lave-vaisselle pose libre HISENSE",
   "https://www.dealabs.com/bons-plans/lave-vaisselle-encastrable-electrolux-e62lb200s-3472610": "Lave-Vaisselle tout Intégrable Electrolux E62LB200S - 14 Couverts, Classe B, 44dB",
   "https://www.dealabs.com/bons-plans/refrigerateur-combine-encastrable-246l-hisense-rib312f4awe-no-frost-3472730": "Réfrigérateur combiné encastrable 246L Hisense RIB312F4AWE (No Frost)",
-  "https://www.dealabs.com/bons-plans/sel-pour-lave-vaisselle-by-amazon-2kg-via-remise-au-panier-3472715": "Sel pour lave-vaisselle by Amazon - 2Kg (Via remise au Panier)"
+  "https://www.dealabs.com/bons-plans/sel-pour-lave-vaisselle-by-amazon-2kg-via-remise-au-panier-3472715": "Sel pour lave-vaisselle by Amazon - 2Kg (Via remise au Panier)",
+  "https://www.dealabs.com/bons-plans/table-induction-bosch-3-foyers-l59-x-p52-cm-pij631hb1e-3473066": "Table induction Bosch PIJ631HB1E - 3 foyers, L59 x P52 cm Bosch Serie 6"
 }
