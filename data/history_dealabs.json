@@ -31,13 +31,13 @@
     "dealabs:flux": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T11:00:00+00:00",
+      "dernier_ok": "2026-11-27T12:00:00+00:00",
       "libelle": "Flux Dealabs (rss/tous)"
     },
     "mode:dealabs": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T11:00:00+00:00",
+      "dernier_ok": "2026-11-27T12:00:00+00:00",
       "libelle": "mode dealabs"
     }
   },
@@ -47,5 +47,6 @@
   "https://www.dealabs.com/bons-plans/four-encastrable-electrolux-coh4p06bx3-65-l-inox-anti-traces-nettoyage-pyrolyse-porte-froide-4-verres-25-programmes-classe-a-3470858": "Four Encastrable Electrolux COH4P06BX3 - 65 L, Inox anti-traces, Nettoyage Pyrolyse, Porte froide 4 verres, 25 programmes, Classe A+",
   "https://www.dealabs.com/bons-plans/refrigerateur-combine-tcl-rp350bbe0-350-l-total-no-frost-595-x-60-x-201-cm-noir-3470940": "Réfrigérateur combiné TCL RP350BBE0 - 350 L, Total No Frost, 59,5 x 60 x 201 cm",
   "https://www.dealabs.com/bons-plans/lave-vaisselle-pose-libre-bosch-sms26ai01f-12-couverts-induction-l60cm-48-db-acier-brosse-anti-traces-3470924": "Lave-vaisselle pose libre Bosch SMS26AI01F - 12 couverts, Induction, L60cm, 48 dB, Acier brossé anti-traces",
-  "https://www.dealabs.com/bons-plans/comfee-refrigerateur-congelateur-pose-libre-174-l-3471696": "Comfee' Réfrigérateur congélateur pose libre 174 L"
+  "https://www.dealabs.com/bons-plans/comfee-refrigerateur-congelateur-pose-libre-174-l-3471696": "Comfee' Réfrigérateur congélateur pose libre 174 L",
+  "https://www.dealabs.com/bons-plans/refrigerateur-haier-multi-portes-capacite-467-l-classe-energetique-d-3472194": "Réfrigérateur Haier Multi-Portes Capacité 467 L - Classe Énergétique D"
 }
