@@ -457,19 +457,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T10:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T10:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T10:00:00+00:00",
       "libelle": "mode promos"
     }
   }
