@@ -264,6 +264,10 @@
       "11656334": {
         "nom": "LEGO Technic 42160 Audi RS Q e-tron",
         "prix": 118.99
+      },
+      "15045617": {
+        "nom": "LEGO Icons 10358 Transformers: Soundwave",
+        "prix": 97.99
       }
     },
     "Top promo électroménager": {
@@ -473,19 +477,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T12:00:00+00:00",
+      "dernier_ok": "2026-11-27T14:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T12:00:00+00:00",
+      "dernier_ok": "2026-11-27T14:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T12:00:00+00:00",
+      "dernier_ok": "2026-11-27T14:00:00+00:00",
       "libelle": "mode promos"
     }
   }
