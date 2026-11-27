@@ -59,7 +59,7 @@
       },
       "4585410": {
         "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
-        "prix": 75.05
+        "prix": 92.0
       },
       "16551981": {
         "nom": "LEGO Ninjago 71872 Strid med ultradraken",
@@ -95,7 +95,7 @@
       },
       "11671413": {
         "nom": "LEGO Art 31210 Art moderne",
-        "prix": 99.99
+        "prix": 100.6
       },
       "13278493": {
         "nom": "LEGO Ninjago 71812 Le robot d'escalade ninja de Kai",
@@ -276,6 +276,10 @@
       "5535027": {
         "nom": "LEGO Creator 10275 Le chalet des elfes",
         "prix": 135.0
+      },
+      "13770666": {
+        "nom": "LEGO Super Mario 71438 Super Mario World : Mario et Yoshi",
+        "prix": 90.99
       }
     },
     "Top promo électroménager": {
@@ -493,19 +497,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T20:00:00+00:00",
+      "dernier_ok": "2026-11-27T22:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T20:00:00+00:00",
+      "dernier_ok": "2026-11-27T22:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T20:00:00+00:00",
+      "dernier_ok": "2026-11-27T22:00:00+00:00",
       "libelle": "mode promos"
     }
   }
