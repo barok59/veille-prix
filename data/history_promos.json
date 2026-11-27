@@ -11,7 +11,7 @@
       },
       "14879663": {
         "nom": "LEGO ONE PIECE 75640 Le restaurant flottant Baratie",
-        "prix": 181.99
+        "prix": 182.39
       },
       "14412572": {
         "nom": "LEGO Harry Potter 76447 Le château de Poudlard : Ensemble d’aventure Leçons de vol",
@@ -59,7 +59,7 @@
       },
       "4585410": {
         "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
-        "prix": 75.05
+        "prix": 92.41
       },
       "16551981": {
         "nom": "LEGO Ninjago 71872 Strid med ultradraken",
@@ -127,7 +127,7 @@
       },
       "5279554": {
         "nom": "LEGO Friends 41429 Avion Heartlake City",
-        "prix": 104.3
+        "prix": 109.52
       },
       "11285108": {
         "nom": "LEGO Harry Potter 76419 Le château et le parc de Poudlard",
@@ -235,7 +235,19 @@
       },
       "12992507": {
         "nom": "LEGO Marvel 76285 Le masque de Spider-Man",
-        "prix": 99.0
+        "prix": 104.9
+      },
+      "12341261": {
+        "nom": "LEGO Icons 10325 Chalet alpin",
+        "prix": 174.99
+      },
+      "6654326": {
+        "nom": "LEGO Marvel Super Heroes 76218 Sanctum Sanctorum",
+        "prix": 329.64
+      },
+      "5143691": {
+        "nom": "LEGO Creator 10266 NASA Apollo 11 Module lunaire",
+        "prix": 101.99
       }
     },
     "Top promo électroménager": {
@@ -430,6 +442,14 @@
       "12356859": {
         "nom": "Bosch PVJ611BB6E (Noir)",
         "prix": 434.23
+      },
+      "15776001": {
+        "nom": "Bosch Serie 2 SMS26AW01F (Blanc)",
+        "prix": 349.99
+      },
+      "5832653": {
+        "nom": "Electrolux LIT30230C (Noir)",
+        "prix": 247.89
       }
     }
   },
@@ -437,19 +457,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T21:00:00+00:00",
+      "dernier_ok": "2026-11-27T08:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T21:00:00+00:00",
+      "dernier_ok": "2026-11-27T08:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-26T21:00:00+00:00",
+      "dernier_ok": "2026-11-27T08:00:00+00:00",
       "libelle": "mode promos"
     }
   }
