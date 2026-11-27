@@ -59,7 +59,7 @@
       },
       "4585410": {
         "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
-        "prix": 92.41
+        "prix": 75.05
       },
       "16551981": {
         "nom": "LEGO Ninjago 71872 Strid med ultradraken",
@@ -127,7 +127,7 @@
       },
       "5279554": {
         "nom": "LEGO Friends 41429 Avion Heartlake City",
-        "prix": 109.52
+        "prix": 112.5
       },
       "11285108": {
         "nom": "LEGO Harry Potter 76419 Le château et le parc de Poudlard",
@@ -248,6 +248,22 @@
       "5143691": {
         "nom": "LEGO Creator 10266 NASA Apollo 11 Module lunaire",
         "prix": 101.99
+      },
+      "6239590": {
+        "nom": "LEGO City 60337 Train de voyageurs express",
+        "prix": 100.79
+      },
+      "6492436": {
+        "nom": "LEGO Technic 42143 Ferrari Daytona SP3",
+        "prix": 314.99
+      },
+      "14967231": {
+        "nom": "LEGO Star Wars 75435 Bataille de Felucia Separatist MTT",
+        "prix": 94.49
+      },
+      "11656334": {
+        "nom": "LEGO Technic 42160 Audi RS Q e-tron",
+        "prix": 118.99
       }
     },
     "Top promo électroménager": {
@@ -457,19 +473,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T10:00:00+00:00",
+      "dernier_ok": "2026-11-27T12:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T10:00:00+00:00",
+      "dernier_ok": "2026-11-27T12:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T10:00:00+00:00",
+      "dernier_ok": "2026-11-27T12:00:00+00:00",
       "libelle": "mode promos"
     }
   }
