@@ -59,7 +59,7 @@
       },
       "4585410": {
         "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
-        "prix": 75.05
+        "prix": 92.0
       },
       "16551981": {
         "nom": "LEGO Ninjago 71872 Strid med ultradraken",
@@ -83,7 +83,7 @@
       },
       "13023595": {
         "nom": "LEGO City 60413 Avion de sauvetage incendie",
-        "prix": 104.44
+        "prix": 105.02
       },
       "5946042": {
         "nom": "LEGO Technic 42138 Ford Mustang Shelby GT500",
@@ -187,7 +187,7 @@
       },
       "4628495": {
         "nom": "LEGO Duplo 10871 Aéroport",
-        "prix": 83.43
+        "prix": 83.65
       },
       "13031789": {
         "nom": "LEGO Technic 42181 VTOL Vaisseau spatial de transport lourd LT81",
@@ -477,19 +477,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T14:00:00+00:00",
+      "dernier_ok": "2026-11-27T16:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T14:00:00+00:00",
+      "dernier_ok": "2026-11-27T16:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T14:00:00+00:00",
+      "dernier_ok": "2026-11-27T16:00:00+00:00",
       "libelle": "mode promos"
     }
   }
