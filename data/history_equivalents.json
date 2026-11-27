@@ -43,7 +43,7 @@
       },
       "4634329": {
         "nom": "Rosieres RFDC73S (Inox)",
-        "prix": 461.64
+        "prix": 467.7
       },
       "4705745": {
         "nom": "Bosch HBA573BR0 (Inox)",
@@ -75,7 +75,7 @@
       },
       "16901937": {
         "nom": "Rosieres RO6M5TB3YTB (Black)",
-        "prix": 515.17
+        "prix": 540.62
       },
       "3037073": {
         "nom": "Siemens HM678G4S1 (Inox)",
@@ -477,7 +477,7 @@
       },
       "13519865": {
         "nom": "Bosch SMS4EMW06E Serie 4",
-        "prix": 778.76
+        "prix": 766.27
       },
       "6981194": {
         "nom": "Bosch SMS6ZCI42E Inox",
@@ -531,7 +531,7 @@
     "Hotte murale": {
       "4832487": {
         "nom": "Electrolux LFT419K (Noir)",
-        "prix": 189.2
+        "prix": 190.52
       },
       "3890466": {
         "nom": "Beko HCA92540B (Noir)",
@@ -595,7 +595,7 @@
       },
       "5130033": {
         "nom": "Electrolux LFV319K (Noir)",
-        "prix": 426.29
+        "prix": 427.61
       },
       "4603746": {
         "nom": "Respekta CH24090SA (Noir)",
@@ -679,7 +679,7 @@
       },
       "5243082": {
         "nom": "Electrolux KFTB19X (Inox)",
-        "prix": 652.22
+        "prix": 653.54
       },
       "1735419": {
         "nom": "Eico Sweet P 85cm (Blanc)",
@@ -707,7 +707,7 @@
       },
       "5762504": {
         "nom": "Teka DLV 98660 TOS (Gris)",
-        "prix": 733.73
+        "prix": 800.0
       },
       "2708895": {
         "nom": "Elica Sweet 85cm (Crème)",
@@ -739,7 +739,7 @@
       },
       "3784876": {
         "nom": "Falmec Lumen 800 90cm Murale (Inox)",
-        "prix": 815.08
+        "prix": 829.99
       },
       "2651498": {
         "nom": "Rangemaster Flat Hood 90cm (Noir)",
@@ -825,7 +825,7 @@
       },
       "3793740": {
         "nom": "Cata CMD 5008 X (Inox)",
-        "prix": 362.52
+        "prix": 499.0
       },
       "4894945": {
         "nom": "SMEG Cucina SF6400TVX (Inox)",
@@ -959,7 +959,7 @@
       },
       "5876382": {
         "nom": "Electrolux LIL83443 (Noir)",
-        "prix": 469.83
+        "prix": 469.98
       },
       "16104331": {
         "nom": "Electrolux LIL83441 (Noir)",
@@ -1071,7 +1071,7 @@
       },
       "5876515": {
         "nom": "Electrolux EIV85443 (Noir)",
-        "prix": 668.52
+        "prix": 665.4
       },
       "13343725": {
         "nom": "Siemens EX877HVC1E (Noir)",
@@ -1271,7 +1271,7 @@
       },
       "15851292": {
         "nom": "AEG TI84IB30FZ (SaphirMatt)",
-        "prix": 1017.47
+        "prix": 1029.99
       }
     },
     "Frigo 1 porte 60 cm sans congelateur": {
@@ -1289,11 +1289,11 @@
       },
       "16969141": {
         "nom": "Hisense RL415N4AWC (Blanc)",
-        "prix": 595.38
+        "prix": 595.37
       },
       "15793664": {
         "nom": "Hisense RL3K370SAIE (Gris)",
-        "prix": 563.59
+        "prix": 562.59
       },
       "16707446": {
         "nom": "Bomann VS7372 (Acier inoxydable)",
@@ -1389,7 +1389,7 @@
       },
       "7131106": {
         "nom": "Beko B3RMLNE444HW (Blanc)",
-        "prix": 797.2
+        "prix": 814.22
       },
       "7271807": {
         "nom": "Beko B5RMLNE444HX (Acier inoxydable)",
@@ -1473,7 +1473,7 @@
       },
       "5595291": {
         "nom": "LG GLT51PZGSZ (Acier inoxydable)",
-        "prix": 1172.19
+        "prix": 1182.75
       },
       "16473554": {
         "nom": "Bomann KG7354IX",
@@ -1497,43 +1497,43 @@
     "equiv:Four 60 cm pyrolyse": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T13:00:00+00:00",
       "libelle": "Recherche « Four 60 cm pyrolyse »"
     },
     "equiv:Lave-vaisselle 60 cm": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T13:00:00+00:00",
       "libelle": "Recherche « Lave-vaisselle 60 cm »"
     },
     "equiv:Hotte murale": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T13:00:00+00:00",
       "libelle": "Recherche « Hotte murale »"
     },
     "equiv:Four vapeur 60 cm": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T13:00:00+00:00",
       "libelle": "Recherche « Four vapeur 60 cm »"
     },
     "equiv:Plaque induction 80 cm flex": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T13:00:00+00:00",
       "libelle": "Recherche « Plaque induction 80 cm flex »"
     },
     "equiv:Frigo 1 porte 60 cm sans congelateur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T13:00:00+00:00",
       "libelle": "Recherche « Frigo 1 porte 60 cm sans congelateur »"
     },
     "mode:equivalents": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T08:00:00+00:00",
+      "dernier_ok": "2026-11-27T13:00:00+00:00",
       "libelle": "mode equivalents"
     }
   }
