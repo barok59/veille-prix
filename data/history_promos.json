@@ -59,7 +59,7 @@
       },
       "4585410": {
         "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
-        "prix": 92.0
+        "prix": 75.05
       },
       "16551981": {
         "nom": "LEGO Ninjago 71872 Strid med ultradraken",
@@ -268,6 +268,14 @@
       "15045617": {
         "nom": "LEGO Icons 10358 Transformers: Soundwave",
         "prix": 97.99
+      },
+      "6239483": {
+        "nom": "LEGO Jurassic World 76949 Attaque du Giganotosaurus et du Therizinosaurus",
+        "prix": 217.36
+      },
+      "5535027": {
+        "nom": "LEGO Creator 10275 Le chalet des elfes",
+        "prix": 135.0
       }
     },
     "Top promo électroménager": {
@@ -474,6 +482,10 @@
       "10542153": {
         "nom": "Hotpoint HFC3C33WX Inox",
         "prix": 339.0
+      },
+      "15970287": {
+        "nom": "Siemens iQ100 EH801HVB1E (Noir)",
+        "prix": 710.03
       }
     }
   },
@@ -481,19 +493,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T17:00:00+00:00",
+      "dernier_ok": "2026-11-27T20:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T17:00:00+00:00",
+      "dernier_ok": "2026-11-27T20:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T17:00:00+00:00",
+      "dernier_ok": "2026-11-27T20:00:00+00:00",
       "libelle": "mode promos"
     }
   }
