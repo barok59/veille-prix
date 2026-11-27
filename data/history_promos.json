@@ -187,7 +187,7 @@
       },
       "4628495": {
         "nom": "LEGO Duplo 10871 Aéroport",
-        "prix": 83.65
+        "prix": 83.68
       },
       "13031789": {
         "nom": "LEGO Technic 42181 VTOL Vaisseau spatial de transport lourd LT81",
@@ -470,6 +470,10 @@
       "5832653": {
         "nom": "Electrolux LIT30230C (Noir)",
         "prix": 247.89
+      },
+      "10542153": {
+        "nom": "Hotpoint HFC3C33WX Inox",
+        "prix": 339.0
       }
     }
   },
@@ -477,19 +481,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T16:00:00+00:00",
+      "dernier_ok": "2026-11-27T17:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T16:00:00+00:00",
+      "dernier_ok": "2026-11-27T17:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T16:00:00+00:00",
+      "dernier_ok": "2026-11-27T17:00:00+00:00",
       "libelle": "mode promos"
     }
   }
