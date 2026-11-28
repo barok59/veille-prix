@@ -83,7 +83,7 @@
       },
       "13023595": {
         "nom": "LEGO City 60413 Avion de sauvetage incendie",
-        "prix": 105.02
+        "prix": 105.61
       },
       "5946042": {
         "nom": "LEGO Technic 42138 Ford Mustang Shelby GT500",
@@ -502,6 +502,10 @@
       "15970327": {
         "nom": "Candy CVG6BR4WTW (Blanc)",
         "prix": 215.35
+      },
+      "15851746": {
+        "nom": "Candy CF6C4F0W (Blanc)",
+        "prix": 329.0
       }
     }
   },
@@ -509,19 +513,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T14:00:00+00:00",
+      "dernier_ok": "2026-11-28T15:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T14:00:00+00:00",
+      "dernier_ok": "2026-11-28T15:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T14:00:00+00:00",
+      "dernier_ok": "2026-11-28T15:00:00+00:00",
       "libelle": "mode promos"
     }
   }
