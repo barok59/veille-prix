@@ -19,7 +19,7 @@
       "vendeurs_lus": true
     },
     "four-electrolux-pyro|ledenicheur": {
-      "dernier_prix": 566.8,
+      "dernier_prix": 566.29,
       "plus_bas": 566.28,
       "vendeur": "Cdiscount Marketplace",
       "prix_enseigne": 613.33,
@@ -44,13 +44,13 @@
       "vendeurs_lus": true
     },
     "frigo-beko|ledenicheur": {
-      "dernier_notifie": 516.7,
-      "dernier_prix": 516.7,
+      "dernier_notifie": 516.68,
+      "dernier_prix": 516.68,
       "plus_bas": 511.59,
       "dernier_notifie_enseigne": 534.6,
-      "vendeur": "Darty Marketplace",
-      "prix_enseigne": 534.6,
-      "vendeur_enseigne": "Castorama",
+      "vendeur": null,
+      "prix_enseigne": null,
+      "vendeur_enseigne": null,
       "vendeurs_lus": true
     },
     "plaque-siemens|ledenicheur": {
@@ -85,61 +85,61 @@
     "prix:hotte-elica|primo-ideo": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Elica Sweet Moon Black (primo-ideo)"
     },
     "prix:hotte-elica|ledenicheur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Elica Sweet Moon Black (ledenicheur)"
     },
     "prix:four-electrolux-pyro|ledenicheur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Electrolux EOF6P46RX (ledenicheur)"
     },
     "prix:four-electrolux-vapeur|ledenicheur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Electrolux EOB8S39Z (ledenicheur)"
     },
     "prix:plaque-siemens|ledenicheur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Siemens EX875LYC1E (ledenicheur)"
     },
     "prix:lave-vaisselle-bosch|connexion": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Bosch SMV4EVX36F (connexion)"
     },
     "prix:lave-vaisselle-bosch|ledenicheur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Bosch SMV4EVX36F (ledenicheur)"
     },
     "prix:frigo-bosch|ledenicheur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Bosch KSV33VLEP (ledenicheur)"
     },
     "prix:frigo-beko|ledenicheur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Beko B3RMLNE444HXB (ledenicheur)"
     },
     "mode:prix": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T18:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "mode prix"
     }
   }
