@@ -91,7 +91,7 @@
       },
       "4481031": {
         "nom": "Whirlpool OAKZ9 7961/SP/IX (Inox)",
-        "prix": 529.76
+        "prix": 529.86
       },
       "4914644": {
         "nom": "Whirlpool W7 OM4 4S1 PBL (Noir)",
@@ -369,7 +369,7 @@
       },
       "7160541": {
         "nom": "Teka DFS46750 Vit",
-        "prix": 582.55
+        "prix": 584.4
       },
       "7264389": {
         "nom": "Gorenje GS620C10W Vit",
@@ -401,7 +401,7 @@
       },
       "17111109": {
         "nom": "Balay 3VS5011IA",
-        "prix": 603.65
+        "prix": 619.2
       },
       "12803202": {
         "nom": "Bosch SMS4HUW09E Vit",
@@ -445,7 +445,7 @@
       },
       "16670399": {
         "nom": "Balay 3VS5332BP (Blanc)",
-        "prix": 621.6
+        "prix": 622.65
       },
       "6232833": {
         "nom": "Whirlpool WFC3C33PFX Svart",
@@ -477,7 +477,7 @@
       },
       "13519865": {
         "nom": "Bosch SMS4EMW06E Serie 4",
-        "prix": 766.27
+        "prix": 769.97
       },
       "6981194": {
         "nom": "Bosch SMS6ZCI42E Inox",
@@ -485,7 +485,7 @@
       },
       "12869373": {
         "nom": "Bosch SMS4EKI06E",
-        "prix": 815.16
+        "prix": 822.0
       },
       "16778401": {
         "nom": "Bosch Serie 4 SMS4ECW28E (Blanc)",
@@ -493,7 +493,7 @@
       },
       "12761153": {
         "nom": "Siemens SN23EC03ME Inox",
-        "prix": 868.02
+        "prix": 836.1
       },
       "12903347": {
         "nom": "Siemens SN25ZI08CE Inox",
@@ -541,11 +541,11 @@
       },
       "16655866": {
         "nom": "Teka DFS76850 (Argent)",
-        "prix": 727.8
+        "prix": 735.0
       },
       "12135206": {
         "nom": "Siemens SN45ZS07CE Inox",
-        "prix": 911.0
+        "prix": 1069.79
       }
     },
     "Hotte murale": {
@@ -583,7 +583,7 @@
       },
       "5447300": {
         "nom": "Roblin Ikos 900 (Noir)",
-        "prix": 354.98
+        "prix": 363.77
       },
       "5863128": {
         "nom": "Elica Aplomb 90cm (Blanc)",
@@ -595,7 +595,7 @@
       },
       "12724465": {
         "nom": "Siemens iQ100 LC85KDK60 (noir)",
-        "prix": 451.17
+        "prix": 456.91
       },
       "3728943": {
         "nom": "Franke Smart 90cm Murale (Noir)",
@@ -751,7 +751,7 @@
       },
       "12951274": {
         "nom": "Bosch SERIE 8 DWK91LT60",
-        "prix": 839.67
+        "prix": 880.0
       },
       "3799008": {
         "nom": "Elica Acuta 100cm (Inox)",
@@ -775,7 +775,7 @@
       },
       "5447370": {
         "nom": "Roblin Aqua 900 (Noir)",
-        "prix": 869.99
+        "prix": 863.55
       },
       "3131481": {
         "nom": "SMEG KTR90XE (Inox)",
@@ -787,7 +787,7 @@
       },
       "4015068": {
         "nom": "Respekta CH22010/90WX (Blanc)",
-        "prix": 341.0
+        "prix": 330.77
       },
       "4606409": {
         "nom": "Mepamsa Secret 90cm (Inox)",
@@ -803,7 +803,7 @@
       },
       "3777162": {
         "nom": "Cata Isla Sygma LED 90cm (Inox)",
-        "prix": 864.6
+        "prix": 864.9
       }
     },
     "Four vapeur 60 cm": {
@@ -1003,11 +1003,11 @@
       },
       "5876382": {
         "nom": "Electrolux LIL83443 (Noir)",
-        "prix": 469.98
+        "prix": 470.0
       },
       "16104331": {
         "nom": "Electrolux LIL83441 (Noir)",
-        "prix": 466.23
+        "prix": 438.6
       },
       "3388459": {
         "nom": "AEG HKM95513XB (Inox)",
@@ -1023,7 +1023,7 @@
       },
       "15417653": {
         "nom": "Electrolux EIV83443CT (Noir)",
-        "prix": 509.31
+        "prix": 550.0
       },
       "15113439": {
         "nom": "Bosch PVW831HC1E (Noir)",
@@ -1079,7 +1079,7 @@
       },
       "4845320": {
         "nom": "Electrolux EIV835 (Noir)",
-        "prix": 616.45
+        "prix": 601.7
       },
       "19528757": {
         "nom": "Electrolux KIV83443CT (Noir)",
@@ -1087,7 +1087,7 @@
       },
       "15597282": {
         "nom": "Bosch PXY83KHC1E (Noir)",
-        "prix": 601.56
+        "prix": 624.85
       },
       "16223127": {
         "nom": "Electrolux CIL83441 (Noir)",
@@ -1107,11 +1107,11 @@
       },
       "3708407": {
         "nom": "Siemens EX801LYC1E (Noir)",
-        "prix": 642.42
+        "prix": 642.31
       },
       "3871164": {
         "nom": "Siemens EX851LYC1F (Noir)",
-        "prix": 671.95
+        "prix": 672.0
       },
       "5876515": {
         "nom": "Electrolux EIV85443 (Noir)",
@@ -1139,7 +1139,7 @@
       },
       "16104373": {
         "nom": "DeLonghi PIN95 (Noir)",
-        "prix": 743.76
+        "prix": 684.7
       },
       "4080183": {
         "nom": "Siemens EX845LVC1E (Inox)",
@@ -1199,7 +1199,7 @@
       },
       "3975769": {
         "nom": "Beko HII84500FHTX (Inox)",
-        "prix": 807.73
+        "prix": 828.95
       },
       "12171431": {
         "nom": "Bosch PXV831HC1E",
@@ -1287,7 +1287,7 @@
       },
       "16740504": {
         "nom": "Electrolux KIS82453IZ (Black)",
-        "prix": 945.36
+        "prix": 878.4
       },
       "4889975": {
         "nom": "SMEG SI7844B (Noir)",
@@ -1315,7 +1315,7 @@
       },
       "15851292": {
         "nom": "AEG TI84IB30FZ (SaphirMatt)",
-        "prix": 1017.47
+        "prix": 1029.99
       },
       "15113418": {
         "nom": "AEG Tii84b00fz (Noir)",
@@ -1333,7 +1333,7 @@
       },
       "7574984": {
         "nom": "Beko B3RMLNE444HXB (Acier inoxydable)",
-        "prix": 516.7
+        "prix": 516.68
       },
       "19686350": {
         "nom": "Candy CNCQ2T518EG (Vert)",
@@ -1345,7 +1345,7 @@
       },
       "15793664": {
         "nom": "Hisense RL3K370SAIE (Gris)",
-        "prix": 561.87
+        "prix": 561.11
       },
       "16707446": {
         "nom": "Bomann VS7372 (Acier inoxydable)",
@@ -1437,7 +1437,7 @@
       },
       "16707371": {
         "nom": "Haier HDPW5618DNPD (Noir)",
-        "prix": 814.05
+        "prix": 803.64
       },
       "7131106": {
         "nom": "Beko B3RMLNE444HW (Blanc)",
@@ -1461,7 +1461,7 @@
       },
       "16711034": {
         "nom": "Bosch KSN36AICM Serie 6 (Argent)",
-        "prix": 950.0
+        "prix": 863.85
       },
       "16509355": {
         "nom": "Samsung RR39C76K3AP (Blanc)",
@@ -1493,7 +1493,7 @@
       },
       "16461988": {
         "nom": "Whirlpool WHMLF6442XP4E",
-        "prix": 943.84
+        "prix": 922.7
       },
       "16526736": {
         "nom": "TCL RC521CXE0 (Acier inoxydable)",
@@ -1565,43 +1565,43 @@
     "equiv:Four 60 cm pyrolyse": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T19:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Recherche « Four 60 cm pyrolyse »"
     },
     "equiv:Lave-vaisselle 60 cm": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T19:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Recherche « Lave-vaisselle 60 cm »"
     },
     "equiv:Hotte murale": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T19:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Recherche « Hotte murale »"
     },
     "equiv:Four vapeur 60 cm": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T19:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Recherche « Four vapeur 60 cm »"
     },
     "equiv:Plaque induction 80 cm flex": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T19:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Recherche « Plaque induction 80 cm flex »"
     },
     "equiv:Frigo 1 porte 60 cm sans congelateur": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T19:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Recherche « Frigo 1 porte 60 cm sans congelateur »"
     },
     "mode:equivalents": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T19:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "mode equivalents"
     }
   }
