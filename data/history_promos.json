@@ -284,6 +284,10 @@
       "4996087": {
         "nom": "LEGO Minecraft 21152 L'aventure du bateau pirate",
         "prix": 78.02
+      },
+      "13309923": {
+        "nom": "LEGO City 60408 Camion de transport de voitures avec voitures de sport",
+        "prix": 99.99
       }
     },
     "Top promo électroménager": {
@@ -505,19 +509,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T11:00:00+00:00",
+      "dernier_ok": "2026-11-28T14:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T11:00:00+00:00",
+      "dernier_ok": "2026-11-28T14:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T11:00:00+00:00",
+      "dernier_ok": "2026-11-28T14:00:00+00:00",
       "libelle": "mode promos"
     }
   }
