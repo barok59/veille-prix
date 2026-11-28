@@ -59,7 +59,7 @@
       },
       "4585410": {
         "nom": "LEGO Friends 41335 La cabane dans les arbres de Mia",
-        "prix": 92.0
+        "prix": 75.05
       },
       "16551981": {
         "nom": "LEGO Ninjago 71872 Strid med ultradraken",
@@ -155,7 +155,7 @@
       },
       "14967973": {
         "nom": "LEGO Star Wars 75413 Republic Juggernaut",
-        "prix": 94.99
+        "prix": 104.99
       },
       "4946811": {
         "nom": "LEGO Creator 10263 Caserne de pompiers du village d'hiver",
@@ -183,7 +183,7 @@
       },
       "3464729": {
         "nom": "LEGO DC Comics Super Heroes 76046 Heroes of Justice: Sky High Battle",
-        "prix": 78.44
+        "prix": 88.99
       },
       "4628495": {
         "nom": "LEGO Duplo 10871 Aéroport",
@@ -280,6 +280,10 @@
       "13770666": {
         "nom": "LEGO Super Mario 71438 Super Mario World : Mario et Yoshi",
         "prix": 90.99
+      },
+      "4996087": {
+        "nom": "LEGO Minecraft 21152 L'aventure du bateau pirate",
+        "prix": 78.02
       }
     },
     "Top promo électroménager": {
@@ -490,6 +494,10 @@
       "15970287": {
         "nom": "Siemens iQ100 EH801HVB1E (Noir)",
         "prix": 710.03
+      },
+      "15970327": {
+        "nom": "Candy CVG6BR4WTW (Blanc)",
+        "prix": 215.35
       }
     }
   },
@@ -497,19 +505,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T22:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T22:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-27T22:00:00+00:00",
+      "dernier_ok": "2026-11-28T08:00:00+00:00",
       "libelle": "mode promos"
     }
   }
