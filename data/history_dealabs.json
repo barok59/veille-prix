@@ -31,13 +31,13 @@
     "dealabs:flux": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T08:00:00+00:00",
+      "dernier_ok": "2026-11-28T09:00:00+00:00",
       "libelle": "Flux Dealabs (rss/tous)"
     },
     "mode:dealabs": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T08:00:00+00:00",
+      "dernier_ok": "2026-11-28T09:00:00+00:00",
       "libelle": "mode dealabs"
     }
   },
@@ -55,5 +55,6 @@
   "https://www.dealabs.com/bons-plans/sel-pour-lave-vaisselle-by-amazon-2kg-via-remise-au-panier-3472715": "Sel pour lave-vaisselle by Amazon - 2Kg (Via remise au Panier)",
   "https://www.dealabs.com/bons-plans/table-induction-bosch-3-foyers-l59-x-p52-cm-pij631hb1e-3473066": "Table induction Bosch PIJ631HB1E - 3 foyers, L59 x P52 cm Bosch Serie 6",
   "https://www.dealabs.com/bons-plans/refrigerateur-combine-samsung-rb33b610esa-344-l-no-frost-595-x-658-x-1853-cm-gris-metal-3473400": "Réfrigérateur combiné Samsung RB33B610ESA - 344 L, No Frost, 59,5 x 65,8 x 185,3 cm, Gris métal",
-  "https://www.dealabs.com/bons-plans/four-pyrolyse-3473411": "Four encastrable pyrolyse Hotpoint HAO854PSX - Inox, 59.5x59.5x55.1 (Vendeur tiers)"
+  "https://www.dealabs.com/bons-plans/four-pyrolyse-3473411": "Four encastrable pyrolyse Hotpoint HAO854PSX - Inox, 59.5x59.5x55.1 (Vendeur tiers)",
+  "https://www.dealabs.com/bons-plans/refrigerateur-4-portes-3473474": "Réfrigérateur multi portes BEKO GNO46624MXPN"
 }
