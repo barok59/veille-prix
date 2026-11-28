@@ -159,7 +159,7 @@
       },
       "4946811": {
         "nom": "LEGO Creator 10263 Caserne de pompiers du village d'hiver",
-        "prix": 113.9
+        "prix": 139.0
       },
       "3738441": {
         "nom": "LEGO Creator 10252 Volkswagen Beetle",
@@ -187,7 +187,7 @@
       },
       "4628495": {
         "nom": "LEGO Duplo 10871 Aéroport",
-        "prix": 83.68
+        "prix": 83.73
       },
       "13031789": {
         "nom": "LEGO Technic 42181 VTOL Vaisseau spatial de transport lourd LT81",
@@ -505,19 +505,19 @@
     "promos:Lego": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T08:00:00+00:00",
+      "dernier_ok": "2026-11-28T09:00:00+00:00",
       "libelle": "Promos « Lego »"
     },
     "promos:Top promo électroménager": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T08:00:00+00:00",
+      "dernier_ok": "2026-11-28T09:00:00+00:00",
       "libelle": "Promos « Top promo électroménager »"
     },
     "mode:promos": {
       "echecs": 0,
       "alerte": false,
-      "dernier_ok": "2026-11-28T08:00:00+00:00",
+      "dernier_ok": "2026-11-28T09:00:00+00:00",
       "libelle": "mode promos"
     }
   }
